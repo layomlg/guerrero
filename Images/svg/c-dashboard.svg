@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="407 366 85 85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #853ff5;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_237" data-name="Group 237" transform="translate(232 -211)">
+    <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-1" cx="42.5" cy="42.5" r="42.5" transform="translate(175 577)"/>
+    <g id="Group_45" data-name="Group 45" transform="translate(195 598)">
+      <g id="calendar_2_" transform="translate(1 1)">
+        <path id="Path_54" data-name="Path 54" class="cls-2" d="M40.157,4.978h-5.78V2.305A1.313,1.313,0,0,0,33.072,1a1.356,1.356,0,0,0-1.305,1.305V4.978h-8.08V2.305A1.313,1.313,0,0,0,22.381,1a1.356,1.356,0,0,0-1.305,1.305V4.978H13V2.305A1.313,1.313,0,0,0,11.691,1a1.413,1.413,0,0,0-1.367,1.305V4.978H4.543A3.6,3.6,0,0,0,1,8.583V40.157A3.541,3.541,0,0,0,4.543,43.7H40.157A3.541,3.541,0,0,0,43.7,40.157V8.583A3.555,3.555,0,0,0,40.157,4.978Z" transform="translate(-1 -1)"/>
+        <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-2" width="5.345" height="5.097" transform="translate(9.323 12.804)"/>
+        <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-2" width="5.345" height="5.097" transform="translate(9.323 21.257)"/>
+        <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-2" width="5.345" height="5.097" transform="translate(9.323 29.772)"/>
+        <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-2" width="5.345" height="5.097" transform="translate(18.708 29.772)"/>
+        <rect id="Rectangle_43" data-name="Rectangle 43" class="cls-2" width="5.345" height="5.097" transform="translate(18.708 21.257)"/>
+        <rect id="Rectangle_44" data-name="Rectangle 44" class="cls-2" width="5.345" height="5.097" transform="translate(18.708 12.804)"/>
+        <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-2" width="5.345" height="5.097" transform="translate(28.032 29.772)"/>
+        <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-2" width="5.345" height="5.097" transform="translate(28.032 21.257)"/>
+        <rect id="Rectangle_47" data-name="Rectangle 47" class="cls-2" width="5.345" height="5.097" transform="translate(28.032 12.804)"/>
+      </g>
+    </g>
+  </g>
+</svg>

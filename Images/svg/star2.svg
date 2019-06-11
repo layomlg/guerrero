@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.65 17.76">
+  <defs>
+    <style>
+      .cls-1{
+      fill:#ecc12f;
+      stroke:#ecc12f;     ;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-width:0.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 2</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <polygon class="cls-1" points="9.33 0.25 12.13 5.93 18.4 6.84 13.87 11.27 14.94 17.51 9.33 14.56 3.72 17.51 4.79 11.27 0.25 6.84 6.52 5.93 9.33 0.25"/>
+    </g>
+  </g>
+</svg>

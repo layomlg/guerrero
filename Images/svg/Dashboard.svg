@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="533.5 1110.773 23.727 23.727">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a8dde;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_55" data-name="Group 55" transform="translate(533.5 1110.773)">
+    <g id="Group_54" data-name="Group 54" transform="translate(0.5 0.5)">
+      <g id="Group_53" data-name="Group 53">
+        <rect id="Rectangle_49" data-name="Rectangle 49" class="cls-1" width="5.674" height="5.674" transform="translate(8.527 8.527)"/>
+        <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-1" width="5.674" height="5.674"/>
+        <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-1" width="5.674" height="5.674" transform="translate(8.527 17.053)"/>
+        <rect id="Rectangle_52" data-name="Rectangle 52" class="cls-1" width="5.674" height="5.674" transform="translate(0 8.527)"/>
+        <rect id="Rectangle_53" data-name="Rectangle 53" class="cls-1" width="5.674" height="5.674" transform="translate(0 17.053)"/>
+        <rect id="Rectangle_54" data-name="Rectangle 54" class="cls-1" width="5.674" height="5.674" transform="translate(17.053)"/>
+        <rect id="Rectangle_55" data-name="Rectangle 55" class="cls-1" width="5.674" height="5.674" transform="translate(8.527)"/>
+        <rect id="Rectangle_56" data-name="Rectangle 56" class="cls-1" width="5.674" height="5.674" transform="translate(17.053 8.527)"/>
+        <rect id="Rectangle_57" data-name="Rectangle 57" class="cls-1" width="5.674" height="5.674" transform="translate(17.053 17.053)"/>
+      </g>
+    </g>
+  </g>
+</svg>

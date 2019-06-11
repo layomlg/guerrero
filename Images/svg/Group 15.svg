@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="61.5 1152.267 180.129 65.766">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 10px;
+        font-family: GothamBold, Gotham Bold;
+      }
+    </style>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(61.5 1152.267)">
+    <path id="Path_13" data-name="Path 13" class="cls-1" d="M0,0V65.766H65.766V0ZM44.273,49.251H21.493V16.515H28.52V42.926H44.273Z"/>
+    <g id="Group_14" data-name="Group 14" transform="translate(82.749 11.888)">
+      <text id="Unlimited_Progress" data-name="Unlimited Progress" class="cls-2" transform="translate(0.379 38.561)"><tspan x="0" y="0">Unlimited Progress</tspan></text>
+      <g id="Group_13" data-name="Group 13">
+        <path id="Path_14" data-name="Path 14" class="cls-1" d="M151.2,45.013a9.677,9.677,0,0,1-7.262-2.694Q141.3,39.6,141.3,34.238V20.3h5.036V34.062a6.686,6.686,0,0,0,1.288,4.509,5.161,5.161,0,0,0,7.262.059,6.451,6.451,0,0,0,1.288-4.392V20.3h5.036V34.062a15.194,15.194,0,0,1-.7,4.861,8.848,8.848,0,0,1-1.991,3.4,8.212,8.212,0,0,1-3.162,2.05A13.179,13.179,0,0,1,151.2,45.013Z" transform="translate(-141.3 -20.3)"/>
+        <path id="Path_15" data-name="Path 15" class="cls-1" d="M184.1,20.3h9.311a10.6,10.6,0,0,1,3.689.586,8.724,8.724,0,0,1,2.752,1.7,8,8,0,0,1,1.757,2.635,9.205,9.205,0,0,1,.586,3.4v.059a9.5,9.5,0,0,1-.7,3.748,7.521,7.521,0,0,1-1.991,2.694,9.489,9.489,0,0,1-2.928,1.64,12.093,12.093,0,0,1-3.631.527h-3.807V44.6H184.1Zm9.019,12.24a3.9,3.9,0,0,0,2.928-1.054A3.575,3.575,0,0,0,197.1,28.85v-.059a3.337,3.337,0,0,0-1.113-2.752A4.253,4.253,0,0,0,193,25.1h-3.865V32.54Z" transform="translate(-159.035 -20.3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

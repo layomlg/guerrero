@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="540.5 1709.5 18.874 23.874">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a8dde;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(540.5 1709.5)">
+    <g id="Group_35" data-name="Group 35" transform="translate(10.172 13.015)">
+      <g id="Group_34" data-name="Group 34">
+        <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-1" width="8.169" height="10.359"/>
+      </g>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(0.5 13.015)">
+      <g id="Group_36" data-name="Group 36">
+        <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-1" width="8.169" height="10.359"/>
+      </g>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(0.5 0.5)">
+      <g id="Group_38" data-name="Group 38">
+        <path id="Path_48" data-name="Path 48" class="cls-1" d="M14.976,4.715a3.131,3.131,0,0,0,.294-1.372A2.682,2.682,0,0,0,12.787.5,3.637,3.637,0,0,0,9.944,2.167a6.955,6.955,0,0,0-.523.817A6.955,6.955,0,0,0,8.9,2.167,3.729,3.729,0,0,0,6.055.5,2.682,2.682,0,0,0,3.572,3.343a3.235,3.235,0,0,0,.294,1.372H.5v6.829H8.6V4.715h1.6v6.829h8.169V4.715Zm-8.921,0A1.287,1.287,0,0,1,4.879,3.343,1.287,1.287,0,0,1,6.055,1.97c1.176,0,2.287,1.372,2.614,2.712l-2.614.033Zm6.764,0H10.205C10.532,3.376,11.643,2,12.819,2A1.287,1.287,0,0,1,14,3.376,1.277,1.277,0,0,1,12.819,4.715Z" transform="translate(-0.5 -0.5)"/>
+      </g>
+    </g>
+  </g>
+</svg>

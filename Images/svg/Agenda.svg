@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="545.5 2131.5 19.748 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3a8dde;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_59" data-name="Group 59" transform="translate(35.5 2051.6)">
+    <g id="Group_58" data-name="Group 58" transform="translate(510.5 80.4)">
+      <path id="Path_66" data-name="Path 66" class="cls-1" d="M512.126,82.887a.829.829,0,0,1,0-1.658h16.293V80.4H512.126a1.633,1.633,0,0,0-1.626,1.626v18.748a1.633,1.633,0,0,0,1.626,1.626h17.122V82.887ZM526,90.22H515.41V86.139H526Z" transform="translate(-510.5 -80.4)"/>
+    </g>
+  </g>
+</svg>

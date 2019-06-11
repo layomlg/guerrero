@@ -1,0 +1,67 @@
+<!--************************************+
+Cambio formato estado de cuenta lateral izq
+
+*****************************************-->
+
+<p class="block-titulo">Estado de cuenta</p>
+<div class="block-cuerpo">
+  <table class="t-kpi">
+    <tbody>
+      <tr>
+        <td>KPI</td>
+        <td>Logros</td>
+        <td>Metas</td>
+      </tr>
+      <tr>
+        <td>Sell Out</td>
+        <td>150</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>Cobertura</td>
+        <td>300</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>Ejecución</td>
+        <td>150</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>OTS</td>
+        <td>100</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Total KPI's</td>
+        <td>700</td>
+        <td>750</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr class="block-separador">
+  <p class="tit1">Puntos Disponibles</p>
+  <p class="pts">1050 pts.</p>
+  <button class="outline c" onclick="location.href='cuenta.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
+</div>
+
+
+<style src="css/index.css">/*Bloque nuevo*/
+  table.t-kpi {
+    width: 100%;
+  }
+  table.t-kpi > tbody{
+    width: 33%;
+  }
+  table.t-kpi > tbody > tr{
+    width: 33%;
+  }
+  table.t-kpi > tbody > tr:last-child{
+    width: 33%;
+    border-bottom: 0px;
+  }
+  table.t-kpi > tbody > tr > td{
+    width: 33%;
+    border: 0px;
+  }
+</style>

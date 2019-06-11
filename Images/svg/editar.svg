@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-editar);
+      }
+
+      .cls-2 {
+        fill: #46557c;
+      }
+    </style>
+    <clipPath id="clip-editar">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="editar" class="cls-1">
+    <g id="pencil-edit-button" transform="translate(3 1.869)">
+      <path id="Path_81" data-name="Path 81" class="cls-2" d="M15.1,5.321l4.94,4.94-12.5,12.5L2.6,17.825ZM23.788,4.13l-2.2-2.2a2.186,2.186,0,0,0-3.088,0l-2.11,2.11,4.94,4.94,2.461-2.461A1.684,1.684,0,0,0,23.788,4.13ZM.014,24.768a.562.562,0,0,0,.68.669L6.2,24.1l-4.937-4.94Z" transform="translate(0)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-heartf);
+      }
+
+      .cls-2 {
+        fill: #d88734;
+      }
+    </style>
+    <clipPath id="clip-heartf">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="heartf" class="cls-1">
+    <g id="valentines-heart" transform="translate(4 -26.952)">
+      <g id="Icons_18_" transform="translate(0 32.952)">
+        <path id="Path_83" data-name="Path 83" class="cls-2" d="M21.11,38.653a5.7,5.7,0,0,0-10.555-2.977,5.7,5.7,0,1,0-8.6,7.269l8.078,8.078a.736.736,0,0,0,1.04,0l8.078-8.078A5.68,5.68,0,0,0,21.11,38.653Z" transform="translate(0 -32.952)"/>
+      </g>
+    </g>
+  </g>
+</svg>

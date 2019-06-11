@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="630.619 1421.773 38.965 38.965">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Group_48" data-name="Group 48" transform="translate(631.119 1422.273)">
+    <g id="calendar_2_" transform="translate(0 0)">
+      <path id="Path_54" data-name="Path 54" class="cls-1" d="M35.815,4.537H30.676V2.161A1.167,1.167,0,0,0,29.515,1a1.206,1.206,0,0,0-1.16,1.161V4.537H21.171V2.161A1.167,1.167,0,0,0,20.01,1a1.206,1.206,0,0,0-1.16,1.161V4.537H11.666V2.161A1.167,1.167,0,0,0,10.505,1,1.257,1.257,0,0,0,9.289,2.161V4.537H4.15A3.2,3.2,0,0,0,1,7.742V35.815a3.148,3.148,0,0,0,3.15,3.15H35.815a3.148,3.148,0,0,0,3.15-3.15V7.742A3.161,3.161,0,0,0,35.815,4.537Z" transform="translate(-1 -1)"/>
+      <rect id="Rectangle_39" data-name="Rectangle 39" class="cls-1" width="4.753" height="4.531" transform="translate(8.289 11.384)"/>
+      <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-1" width="4.753" height="4.531" transform="translate(8.289 18.9)"/>
+      <rect id="Rectangle_41" data-name="Rectangle 41" class="cls-1" width="4.753" height="4.531" transform="translate(8.289 26.47)"/>
+      <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-1" width="4.753" height="4.531" transform="translate(16.634 26.47)"/>
+      <rect id="Rectangle_43" data-name="Rectangle 43" class="cls-1" width="4.753" height="4.531" transform="translate(16.634 18.9)"/>
+      <rect id="Rectangle_44" data-name="Rectangle 44" class="cls-1" width="4.753" height="4.531" transform="translate(16.634 11.384)"/>
+      <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-1" width="4.753" height="4.531" transform="translate(24.923 26.47)"/>
+      <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-1" width="4.753" height="4.531" transform="translate(24.923 18.9)"/>
+      <rect id="Rectangle_47" data-name="Rectangle 47" class="cls-1" width="4.753" height="4.531" transform="translate(24.923 11.384)"/>
+    </g>
+  </g>
+</svg>
