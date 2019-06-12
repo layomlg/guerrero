@@ -161,17 +161,108 @@
             </div>
             <p class="block-titulo">Categorías</p>
             <div class="block-cuerpo">
-              <form>
-                <div class="radio">
-                  <label><input type="radio" name="cat">Temporalidad</label>
+              <!--<form>
+<div class="radio">
+<label><input type="radio" name="cat">Temporalidad</label>
+</div>
+<div class="radio">
+<label><input type="radio" name="cat">Tendencias</label>
+</div>
+<div class="radio">
+<label><input type="radio" name="cat">Personal</label>
+</div>
+</form>-->
+
+              <div class="block-categorias">
+                <div class="categoria art">
+                  <img src="./Images/nuevas/art-personales.svg">
+                  <p class="tit-cat">Artículos Personales</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="radio">
-                  <label><input type="radio" name="cat">Tendencias</label>
+                <div class="categoria dep">
+                  <img src="./Images/nuevas/deportes.svg">
+                  <p class="tit-cat">Deportes</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="radio">
-                  <label><input type="radio" name="cat">Personal</label>
+                <div class="categoria aut">
+                  <img src="./Images/nuevas/autos.svg">
+                  <p class="tit-cat">Autos</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
                 </div>
-              </form>
+                <div class="categoria cav">
+                  <img src="./Images/nuevas/Cava.svg">
+                  <p class="tit-cat">Cava</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria cer">
+                  <img src="./Images/nuevas/certificados.svg">
+                  <p class="tit-cat">Certificados</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria tec">
+                  <img src="./Images/nuevas/tecnologia.svg">
+                  <p class="tit-cat">Tecnología</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria beb">
+                  <img src="./Images/nuevas/bebes.svg">
+                  <p class="tit-cat">Bebés</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria hog">
+                  <img src="./Images/nuevas/hogar.svg">
+                  <p class="tit-cat">Hogar</p>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href="">sub 1</a></li>
+                      <li><a href="">sub 2</a></li>
+                      <li><a href="">sub 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
             <p class="block-titulo">Filtros</p>
             <div class="block-cuerpo">

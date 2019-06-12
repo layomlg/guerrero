@@ -293,7 +293,7 @@ div.nav-contenedor.left > ul > li:nth-child(4) > a div:hover p {
 .nav-contenedor.left > ul > li > p ,
 .nav-contenedor.left > ul > li > a {
   color: #fff;
-  background-color: #447ed9;
+  background-color: #2C366E;
   font-weight: bold;
   cursor: pointer;
 }
@@ -706,7 +706,7 @@ div.buscador2{
   position: relative;
   top: 2px;
   width: 80vw;
-  border: 1px solid #447ed9;
+  border: 1px solid #2C366E;
 }
 div.buscador2 > img{
   height: 20px;
@@ -803,7 +803,7 @@ textarea:focus, input:focus{
     min-width: 150px;
     margin: 0px 10vw;
     padding: 5px 15px;
-    background-color: #447ed9;
+    background-color: #2C366E;
     display: block;
     border: 0.5px solid #fff;
   }
@@ -856,10 +856,10 @@ textarea:focus, input:focus{
   }
   button.btn-search {
     display: inline-block;
-    /*color: #447ed9;*/
+    /*color: #2C366E;*/
   }
   button.btn-search > span {
-    /*color: #447ed9;*/
+    /*color: #2C366E;*/
   }
   button.btn-carrito {
     display: inline-block;
@@ -916,7 +916,7 @@ textarea:focus, input:focus{
 
 
 div.carrito-contenedor ul{
-  background-color: #447ed9;
+  background-color: #2C366E;
   height: auto;
   margin: 0px;
   padding: 0px;
