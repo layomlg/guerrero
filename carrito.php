@@ -132,29 +132,34 @@
     <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
 
     <div class="contenedor">
+     <div class="row">
+       <div class="col-xs-12">
+         <p class="block-titulo centrado">Tu saldo es de <span>4,500</span> pts.</p>
+       </div>
+     </div>
       <div class="row">
         <div class="col-xs-12 pasos">
           <div class="pago clearfix">
             <div class="col-xs-offset-2 col-xs-2 mnu1 active">
-              <div class="circle">1</div>
-              <p>Resumen</p>
+              <div class="circle"></div>
+              <p>Resumen de compra</p>
             </div>
             <div class="col-xs-1 sprd"></div>
             <div class="col-xs-2 mnu2">
-              <div class="circle">2</div>
+              <div class="circle"></div>
               <p>Datos de envío</p>
             </div>
             <div class="col-xs-1 sprd"></div>
             <div class="col-xs-2 mnu3">
-              <div class="circle">3</div>
-              <p>Canje</p>
+              <div class="circle"></div>
+              <p>Confirmación de canje</p>
             </div>
           </div>
         </div>
 
         <div class="col-xs-12 col-sm-12 pasos">
           <div class="pago clearfix">
-            <p class="sec-titulo"><img src="Images/svg/cartf.png">Mi Carrito </p>
+          <!--  <p class="sec-titulo"><img src="Images/svg/cartf.png">Mi Carrito </p>-->
             <div class="col-xs-12 step1">
               <div class="row  clearfix"> 
                 <div class="col-xs-12 col-sm-8">
@@ -193,9 +198,9 @@
                         <p class="desc"><?= $desc;?></p>
                         <!--<p class="pts"><?= $pts;?> pts.</p>-->
                         <p class="pts">
-                          <span class="l" onclick="cart2fav(<?php echo $id;?>,<?php echo $idUsuario;?>)">
+                          <!--<span class="l" onclick="cart2fav(<?php echo $id;?>,<?php echo $idUsuario;?>)">
                             <img title="Mover a Wishlist" src="./Images/svg/heartf.svg"> Mover a Favoritos
-                          </span>
+                          </span>-->
                           <span>Cantidad <span><?= $cantidad;?></span> = <?= $pts;?> pts.</span></p>
                       </div>
                     </div>
@@ -238,7 +243,7 @@
                     }
                     ?>
                     <p class="total">Total <span><?= number_format($total);?> pts.</span></p>
-                    <button id="a1" class="azulLista b-carrito">Canjear</button>
+                    <button id="a1" class="outline">Canjear</button>
                   </div>
                 </div>
               </div>
@@ -361,7 +366,7 @@
                     <p class="pgo">Subtotal <span><?= number_format($total);?> pts.</span></p>
                     <p class="pgo">Envío <span>Gratuito</span></p>
                     <p class="total">Total <span><?= number_format($total);?> pts.</span></p>
-                    <button id="a3" class="azulLista b-carrito" onclick="location.href='confirmacion.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
+                    <button id="a3" class="outline" onclick="location.href='confirmacion.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
                   </div>
                 </div>
               </div>

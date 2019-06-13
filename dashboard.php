@@ -32,6 +32,15 @@
         margin: 0px;
         overflow-y: auto;
       }
+      .contenedor{
+        top: 0px;
+        width: 100%;
+        max-width: none;
+        min-height: 100vh;
+        background: #EBEBEB;
+        margin: 0px;
+        overflow-y: auto;
+      }
     </style>
 
   </head>
@@ -51,7 +60,7 @@
             </div>
           </div>
         </div>
-        <br>
+        <!--<br>-->
         <div class="bloque">
           <div class="programa2 c1" onclick="location.href='./proximamente.html';">
             <div class="c2">

@@ -99,7 +99,7 @@
             <li class="img"><a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/cart.svg"><span class="name"> Mi carrito</span><span> (2)</span></a></li>
             <li class="img" id="btn-s1"><img src="./Images/svg/bell.svg"><span> (3)</span></li>
             <div class="separador"></div>
-            
+
             <li class="img mnu-cuenta"><p><a href="./perfil.php"><img src="./Images/svg/user.png"><span> <?php echo $nombre; ?>  </span></a></p></li> 
           </ul>
         </div>
@@ -119,7 +119,7 @@
               <ul class="cuenta">
                 <li><a  href="perfil.php?idUsuario=<?php echo $idUsuario; ?>">Mi muro</a></li><li><a  href="editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar perfil</a></li>
                 <li><a href="cuenta.php?idUsuario=<?php echo $idUsuario; ?>" >Estado de cuenta</a></li><li><a href="index.php" >Cerrar sesión</a></li>
-                
+
               </ul>
 
             </div>
@@ -133,25 +133,24 @@
     <div class="contenedor">
       <div class="row">
         <div class="col-sm-8 soporte ">
-          <p class="f12">Soporte</p>
-          <br>
           <div class="col-sm-offset-2 col-sm-8 datos">
-            <p class="f12">Jaguar, si necesitas más información dejanos tu mensaje.</p>
+            <p class="f12" style="text-align:left;">Guerrero(a), si necesitas más información dejanos tu mensaje.</p>
             <div class="col-sm-12">
-              <label>Nombre completo</label>
-              <input>
+              <label>Nombre Completo Promotor</label>
             </div>
-            <div class="col-sm-12">
+            <div class="col-sm-8">
               <label>Correo electrónico</label>
               <input>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <label>Asunto</label>
-              <input>
-            </div>
-            <div class="col-sm-6">
-              <label>Región</label>
-              <input>
+              <select>
+                <option>Asunto</option>
+                <option>Asunto 1</option>
+                <option>Asunto 2</option>
+                <option>Asunto 3</option>
+                <option>Asunto 4</option>
+              </select>
             </div>
             <div class="col-sm-12">
               <label>Mensaje</label>
@@ -163,12 +162,12 @@
           </div>
         </div>
         <div class="col-sm-4 soporte">
-
+          <img src="./Images/svg/soporte.svg">
           <p class="f12">Contacto</p>
           <br>
           <div class="col-sm-12 datos">
             <div class="col-sm-12">
-              <p>Garra Jaguar</p>
+              <p>Guerrerobook</p>
               <a >(55) 1250 2310</a>
               <a >01 800 822 5970</a>
             </div>
@@ -177,14 +176,14 @@
               <a >01 800 5046 900</a>
             </div>
             <div class="col-sm-12">
-              <p>Devolución autoservicios</p>
-              <a >01 800 702 5872</a>
-            </div>
-            <div class="col-sm-12">
               <p>Correo electrónico</p>
               <a >garrajaguar@mlg.com.mx</a>
             </div>
-            
+            <div class="col-sm-12">
+              <p>Horario de servicio<br>Lunes a Viernes<br> 11:00 a 20:00 hrs.</p>
+
+            </div>
+
           </div>
         </div>
       </div>

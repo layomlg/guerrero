@@ -136,41 +136,22 @@
     <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="row">
-        <div class="col-xs-12 edit-perfil">
-
-          <p class="f12">Editar mi perfil</p>
-          <div class="edit-img-perfil" data-toggle="modal" data-target="#foto">
-            <img src="Images/logoc.png">
-            <p>Editar foto de perfil</p>
-          </div>
-          <br>
-          <div class="col-sm-8 datos">
+        <div class="col-xs-8 edit-perfil">
+          <div class="col-sm-6 datos">
             <div class="col-sm-12">
-              <label>Nombre(s)</label>
-              <input>
-            </div>
-            <div class="col-sm-6">
-              <label>Apellido Paterno</label>
-              <input>
-            </div>
-            <div class="col-sm-6">
-              <label>Apellido Materno</label>
-              <input>
-            </div>
-            <div class="col-sm-6">
-              <label>Fecha de Nacimiento</label>
-              <input>
-            </div>
-            <div class="col-sm-6">
-              <label>Región</label>
+              <label>Nombre Completo</label>
               <input>
             </div>
             <div class="col-sm-12">
               <label>Correo electrónico</label>
               <input>
             </div>
+            <div class="col-sm-12">
+              <label>Regíon</label>
+              <input>
+            </div>
           </div>
-          <div class="col-sm-4 contraseña">
+          <div class="col-sm-6 contraseña">
             <div class="col-sm-12">
               <label>Contraseña actual</label>
               <input type="password">
@@ -184,9 +165,23 @@
               <input>
             </div>
             <div class="col-sm-12">
-              <button class="azul f12">Guardar cambios</button>
+              <button class="outline f12">Guardar cambios</button>
             </div>
           </div>
+        </div>
+        <div class="col-xs-4 edit-perfil">
+
+          <p class="f12">Editar mi perfil</p>
+          <div class="edit-img-perfil" data-toggle="modal" data-target="#foto">
+            <img src="Images/svg/camera.svg">
+            <p>Editar foto de perfil</p>
+          </div>
+          <br>
+          <div class="col-sm-12">
+            <button class="outline f12">Guardar cambios</button>
+          </div>
+
+
         </div>
       </div>
     </div>

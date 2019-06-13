@@ -133,8 +133,6 @@
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
-          <br>
-          <p class="sec-titulo"><img src="Images/svg/bagb.svg"> Catálogo </p>
         </div>
       </div>
       <div class="elemento">
@@ -142,22 +140,12 @@
           <div class="col-sm-3 izq clearfix">
             <p class="block-titulo">Estado de cuenta</p>
             <div class="block-cuerpo">
-              <p>Metas</p>
-              <p>&nbsp;-Sell Out<span>150</span></p>
-              <p>&nbsp;-Cobertura <span>250</span></p>
-              <p>&nbsp;-Ejecución <span>350</span></p>
-              <p>&nbsp;-OTS <span>450</span></p>
-              <br>
-              <p>Logros</p>
-              <p>&nbsp;-Sell Out<span>150</span></p>
-              <p>&nbsp;-Cobertura <span>250</span></p>
-              <p>&nbsp;-Ejecución <span>350</span></p>
-              <p>&nbsp;-OTS <span>450</span></p>
-              <p>Total <span>2400</span></p>
-              <hr class="block-separador">
               <p class="tit1">Puntos Disponibles</p>
-              <p class="pts">1050 pts.</p>
-              <button class="outline c" onclick="location.href='cuenta.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
+              <p class="pts disp"><span>1050</span> pts.</p>
+              <hr class="block-separador cje">
+              <p class="tit1 cje">Puntos por canjear en Mi Carrito</p>
+              <p class="pts cje"><span>1050</span> pts.</p>
+              <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
             <p class="block-titulo">Categorías</p>
             <div class="block-cuerpo">
@@ -175,90 +163,106 @@
 
               <div class="block-categorias">
                 <div class="categoria art">
-                  <img src="./Images/nuevas/art-personales.svg">
-                  <p class="tit-cat">Artículos Personales</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/art-personales.svg">
+                    <p class="tit-cat">Artículos Personales</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria dep">
-                  <img src="./Images/nuevas/deportes.svg">
-                  <p class="tit-cat">Deportes</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/deportes.svg">
+                    <p class="tit-cat">Deportes</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria aut">
-                  <img src="./Images/nuevas/autos.svg">
-                  <p class="tit-cat">Autos</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/autos.svg">
+                    <p class="tit-cat">Autos</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria cav">
-                  <img src="./Images/nuevas/Cava.svg">
-                  <p class="tit-cat">Cava</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/Cava.svg">
+                    <p class="tit-cat">Cava</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria cer">
-                  <img src="./Images/nuevas/certificados.svg">
-                  <p class="tit-cat">Certificados</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/certificados.svg">
+                    <p class="tit-cat">Certificados</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria tec">
-                  <img src="./Images/nuevas/tecnologia.svg">
-                  <p class="tit-cat">Tecnología</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/tecnologia.svg">
+                    <p class="tit-cat">Tecnología</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria beb">
-                  <img src="./Images/nuevas/bebes.svg">
-                  <p class="tit-cat">Bebés</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/bebes.svg">
+                    <p class="tit-cat">Bebés</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="categoria hog">
-                  <img src="./Images/nuevas/hogar.svg">
-                  <p class="tit-cat">Hogar</p>
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/hogar.svg">
+                    <p class="tit-cat">Hogar</p>
+                  </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href="">sub 1</a></li>
-                      <li><a href="">sub 2</a></li>
-                      <li><a href="">sub 3</a></li>
+                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
@@ -324,7 +328,7 @@
 
                 <?php
                 $rnd = rand(1,9);
-                $resultado = $mysqli->query("SELECT * FROM productos where Categoria_idCategoria = '".$rnd."' ORDER BY puntos DESC LIMIT 6;");
+                $resultado = $mysqli->query("SELECT * FROM productos where Categoria_idCategoria = '".$rnd."' ORDER BY puntos DESC LIMIT 9;");
                 while( $fila = $resultado->fetch_array()){
 
                   $id = $fila['idProductos'];
@@ -345,8 +349,12 @@
                         <p title="<?= $nom;?>"><?= $nom;?></p>
                       </a>
                       <p class="pts"><?= $pts;?> pts.</p>
-                      <button class="outline c canje fav" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)"><img title="Agregar a Wishlist"src="./Images/svg/heartf.svg"><span>&nbsp;&nbsp;&nbsp;Agregar a favoritos</span></button>
-                      <button class="outline c canje cje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)"><img title="Agregar a Carrito"src="./Images/svg/carto.svg"><span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span></button>
+                      <!--<button class="outline c canje fav" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)"><img title="Agregar a Wishlist"src="./Images/svg/heartf.svg"><span>&nbsp;&nbsp;&nbsp;Agregar a favoritos</span></button>-->
+                      <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">
+                        <img class="img-a" title="Agregar a Carrito"src="./Images/svg/cart.svg">
+                        <img class="img-b" title="Agregar a Carrito"src="./Images/svg/cart-b.svg">
+                        <span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span>
+                      </button>
                     </div>
                   </div>
                 </div>

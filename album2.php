@@ -185,13 +185,6 @@
 </div>-->
             <p class="block-titulo">Estado de cuenta</p>
             <div class="block-cuerpo">
-              <!--
-<p>Mis conquistas <span class="datos">800</span></p>
-<p>Mis batallas <span class="datos">200</span></p>
-<p>Bolsa guerrera <span class="datos">150</span></p>
-<p>Otros <span class="datos">0</span></p>
-<p>Subtotal <span class="datos">1150</span></p>
-<p>Puntos canjeados <span class="datos">100</span></p>-->
 
               <p class="tit1">Puntos Disponibles</p>
               <p class="pts disp"><span>1050</span> pts.</p>
@@ -200,15 +193,7 @@
               <p class="pts cje"><span>1050</span> pts.</p>
               <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
-            <!--<p class="block-titulo">Catálogo</p>
-<div class="seccion block-cuerpo">
-<p>Temporalidad</p>
-<p>Tendencias</p>
-<p>Personal</p>
-<button class="outline c" onclick="location.href='categoria.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
-</div>-->
 
-            <!-------CAMBIO---------->
             <p class="block-titulo der r1">Top 5 Regional<span>+</span><span>-</span></p>
             <div class="block-cuerpo top r1">
               <div>
@@ -277,271 +262,32 @@
             <div class="block-cuerpo top">
               <img src="./Images/album1.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
               <div class="bton">
-                <button type="button" class="outline c mb-10" onclick="location.href='album2.php?idUsuario=<?php echo $idUsuario; ?>';"><i class="fa fa-download" ></i>Ver Álbum</button>
+                <button type="button" class="outline c mb-10"><i class="fa fa-download"></i>Ver Álbum</button>
               </div>
             </div>
 
 
 
 
-            <!--<p class="block-titulo">Álbumes</p>
-<div class="block-cuerpo top">
-<p class="album-titulo">Guerrero Jaguar</p>
-<img src="./Images/album1.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
-</div>
-<div class="block-cuerpo top">
-<p class="album-titulo">Reto Silk Selfie</p>
-<img src="./Images/album2.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
-</div>
-<div class="block-cuerpo top">
-<p class="album-titulo">Ejecución vitalinea</p>
-<img src="./Images/album3.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
-</div>
-<div class="block-cuerpo top">
-<p class="album-titulo">Mi galeria</p>
-<img src="./Images/album4.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
-</div>-->
-          </div>
-          <div class="col-sm-6 cen clearfix">
-            <div class="block-cuerpo">
-              <p>Nueva Publicación</p>
-              <textarea></textarea>
-              <p>Hasta 200 caracteres por publicación<span>0/200 Caracteres</span></p>
-              <div class="botones">
-                <button class="gris" data-toggle="modal" data-target="#foto" ><img src="Images/svg/camera.png"> Subir Fotos</button>
-                <button class="outline f">Publicar</button>
-              </div>
-            </div>
-            <div class="block-cuerpo">
-              <div class="cabecera">
-                <img class="logo" src="./Images/logoc.png">
-                <p class="titulo">Aliado Jaguar</p>
-                <p class="info">22/12/2017 10:30am</p>
-                <br>
-                <p class="contenido">Plan de acción Danone-DANETTE</p>
-                <span class="destacado"></span>
-                <span class="editar"></span>
-                <span class="eliminar"></span>
-              </div>
-
-              <img src="Images/publicacion.png">
-              <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
-              </div>
-              <div class="comentar comentario clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>  
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div>
-              <div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div>
-              <div class="comentar clearfix">
-                <img class="logo" src="./Images/logoc.png">
-                <textarea></textarea>
-                <p>Hasta 200 caracteres por publicación<span>0/200 Caracteres</span></p>
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-              </div>
-            </div>
-            <div class="block-cuerpo">
-              <div class="cabecera">
-                <img class="logo" src="./Images/logoc.png">
-                <p class="titulo">Aliado Jaguar</p>
-                <p class="info">22/12/2017 10:30am</p>
-                <br>
-                <p class="contenido">Plan de acción Danone-DANETTE</p>
-                <span class="destacado"></span>
-                <span class="editar"></span>
-                <span class="eliminar"></span>
-              </div>
-
-              <img src="Images/publicacion.png">
-              <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
-              </div>
-              <div class="comentar comentario clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>  
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div>
-              <div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div>
-              <div class="comentar clearfix">
-                <img class="logo" src="./Images/logoc.png">
-                <textarea></textarea>
-                <p>Hasta 200 caracteres por publicación<span>0/200 Caracteres</span></p>
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-              </div>
-            </div>
 
           </div>
-          <div class="col-sm-3 der clearfix">
-            <div class="block-cuerpo">
-              <div id="promo" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators" style="display:none;">
-                  <li data-target="#promo" data-slide-to="0" class="active"></li>
-                  <li data-target="#promo" data-slide-to="1"></li>
-                  <li data-target="#promo" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./Images/promo1.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./Images/promo2.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./Images/promo3.png">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#promo" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#promo" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+          <div class="col-sm-9 clearfix">
+            <p class="block-titulo">Publicaciones Destacadas</p>
+            <div class="block-cuerpo albm">
+              <div class="destacadas">
+                <img src="Images/album1.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album2.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album3.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album4.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album1.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album2.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album3.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album4.png" data-toggle="modal" data-target="#publicacion">
+                <img src="Images/album4.png" data-toggle="modal" data-target="#publicacion">
               </div>
-              <div id="Left_pnlUTT" style="text-align: center">
 
-                <br>
-                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/PAB_2018_Marzo_Abril_2018_UTT.pdf" id="Left_utt" target="new">
-                  <button type="button" class="outline"><i class="fa fa-download"></i>Descargar PAB</button>
-                </a>
-                <br>
-                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
-                  <button type="button" class="outline"><i class="fa fa-download"></i>PDF Convivencia</button>
-                </a>
-
-              </div>
+              <button class="outline">Ver más</button>
             </div>
-
-
-            <!-------CAMBIO---------->
-            <p class="block-titulo">Productos para tí</p>
-            <div class="block-cuerpo">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators" style="display:none;">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts. 
-                        </p>
-                        <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">
-                          <img class="img-a" title="Agregar a Carrito"src="./Images/svg/cart.svg">
-                          <img class="img-b" title="Agregar a Carrito"src="./Images/svg/cart-b.svg">
-                          <span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span>
-                        </button>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="item">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts.</p>
-                        <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">
-                          <img class="img-a" title="Agregar a Carrito"src="./Images/svg/cart.svg">
-                          <img class="img-b" title="Agregar a Carrito"src="./Images/svg/cart-b.svg">
-                          <span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts.</p>
-                        <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">
-                          <img class="img-a" title="Agregar a Carrito"src="./Images/svg/cart.svg">
-                          <img class="img-b" title="Agregar a Carrito"src="./Images/svg/cart-b.svg">
-                          <span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-            <!-------CAMBIO---------->
-
-
           </div>
         </div>
 
@@ -560,34 +306,137 @@
       </div>
     </div>
 
-    <!-- Modal subir foto-->
-    <div class="modal fade" id="foto" role="dialog">
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="publicacion" role="dialog">
       <div class="modal-dialog">
 
-        <!-- Modal subir fotografía-->
+        <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-body">
             <div class="clearfix">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-            <div class="subir-foto">
-              <div>
-                <img src="./Images/svg/camera.svg">
-                <p>Subir Fotos</p>
+
+
+            <div class="block-cuerpo">
+              <div class="cabecera">
+                <img class="logo" src="./Images/logoc.png">
+                <p class="titulo">Aliado Guerrero</p>
+                <p class="info">22/12/2017 10:30am</p>
+                <br>
+                <p class="contenido">Plan de acción Danone-DANETTE</p>
+                <span class="destacado"></span>
+                <span class="editar"></span>
+                <span class="eliminar"></span>
+              </div>
+
+              <img src="Images/publicacion.png">
+              <div class="botones">
+                <span>(3)</span>
+                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
+                <span>(5)</span>
+                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
+              </div>
+              <div class="comentar comentario clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>  
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div>
+              <div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div>
+              
+              
+              
+              <div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div><div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div><div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div><div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div><div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div><div class="comentar comentario editar clearfix">
+                <img class="logo" src="./Images/user1.jpeg">
+                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+                <span class="eliminar"></span>
+                <span class="editar"></span>                
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
+                <br>
+              </div>
+              
+              
+              
+              <div class="comentar clearfix">
+                <img class="logo" src="./Images/logoc.png">
+                <textarea></textarea>
+                <p>Hasta 200 caracteres por publicación<span>0/200 Caracteres</span></p>
+                <div class="botones">
+                  <button class="outline f">Comentar</button>
+                </div>
               </div>
             </div>
-            <select class="subir-foto-select" name="text">
-              <option value="value1">Albúm 1</option> 
-              <option value="value2" selected>Albúm 2</option>
-              <option value="value3">Albúm 3</option>
-              <option value="value3">Albúm 4</option>
-            </select>
-            <button class="outline c">Publicar</button>
+
+
           </div>
         </div>
-
       </div>
     </div>
+
     <script type="text/javascript">
       h = $("div.vermass").width();
       $("div.vermass").css("height", h );
@@ -608,6 +457,11 @@
         hi= hi + "px";
         $(".banner").css("height",hi);
       }
+      var w1 = $(".a-titulo").width();
+      w1= w1 + 15;
+      w1 = w1 + "px";
+      var ww = 'calc( 100% - ' + w1 +')';
+      $(".a-hr").css("width",ww);
     </script>
 
   </body>
