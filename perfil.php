@@ -201,7 +201,7 @@
               <img src="./Images/album4.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
             </div>
           </div>
-          <div class="col-sm-9 cen clearfix">
+          <div class="col-sm-6 cen clearfix">
             <div class="block-cuerpo">
               <p>Nueva Publicación</p>
               <textarea></textarea>
@@ -307,6 +307,138 @@
                 </div>
               </div>
             </div>
+
+          </div>
+          <div class="col-sm-3 der clearfix">
+            <div class="block-cuerpo">
+              <div id="promo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="display:none;">
+                  <li data-target="#promo" data-slide-to="0" class="active"></li>
+                  <li data-target="#promo" data-slide-to="1"></li>
+                  <li data-target="#promo" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="./Images/promo1.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo2.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo3.png">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#promo" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#promo" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div id="Left_pnlUTT" style="text-align: center">
+
+                <br>
+                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/PAB_2018_Marzo_Abril_2018_UTT.pdf" id="Left_utt" target="new">
+                  <button type="button" class="outline"><i class="fa fa-download"></i>Descargar PAB</button>
+                </a>
+                <br>
+                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
+                  <button type="button" class="outline"><i class="fa fa-download"></i>PDF Convivencia</button>
+                </a>
+
+              </div>
+            </div>
+
+
+            <!-------CAMBIO---------->
+            <p class="block-titulo">Productos para tí</p>
+            <div class="block-cuerpo">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="display:none;">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="item">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <!-------CAMBIO---------->
+
 
           </div>
         </div>

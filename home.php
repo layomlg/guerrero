@@ -93,14 +93,36 @@
         </div>
         <div class="nav-contenedor right">
           <ul class="">
-            <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/home.svg"><span class="name"> Home</span></a></li><li class="img"><a href="./proximamente.html"><img src="./Images/svg/pencil.svg"><span class="name"> Capacitación</span></a></li>
-            <li class="img"><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/bag.svg"><span class="name"> Catálogo</span></a></li>
-            <li class="img"><a href="./favoritos.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/heart.svg"><span class="name"> Favoritos</span><span> (2)</span></a></li>
-            <li class="img"><a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/cart.svg"><span class="name"> Mi carrito</span><span> (2)</span></a></li>
-            <li class="img" id="btn-s1"><img src="./Images/svg/bell.svg"><span> (3)</span></li>
+
+
+            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre; ?>  </span></a></p>
+
+              <!--------------CAMBIO ------------------------>
+
+              <div class="carrito-contenedor">
+                <div class="col-xs-12 carrito">
+                  <div class="contenido">
+                    <ul class="cuenta">
+                      <li><a  href="perfil.php?idUsuario=<?php echo $idUsuario; ?>">Mi muro</a></li><li><a  href="editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar perfil</a></li>
+                      <li><a href="cuenta.php?idUsuario=<?php echo $idUsuario; ?>" >Estado de cuenta</a></li><li><a href="index.php" >Cerrar sesión</a></li>
+
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--------------CAMBIO ------------------------>
+
+
+            </li>
             <div class="separador"></div>
-            <li><a><span>16,000 PTS.</span></a></li>
-            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img src="./Images/svg/user.png"><span> <?php echo $nombre; ?>  </span></a></p></li>
+
+            <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/home.svg"><span class="name"> Home</span></a></li>
+            <li class="img"><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/bag.svg"><span class="name"> Catálogo</span></a></li>
+            <li class="img"><a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/cart.svg"><span class="name"> Mi carrito</span><span> (2)</span></a></li>
+            <li class="img"><a href="./proximamente.html"><img src="./Images/svg/pencil.svg"><span class="name"> E-learning</span></a></li>
+            <li class="img" id="btn-s1"><img src="./Images/svg/bell.svg"><span> (3)</span></li>
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
@@ -113,18 +135,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-        <div class="carrito-contenedor">
-          <div class="col-xs-12 carrito">
-            <div class="contenido">
-              <ul class="cuenta">
-                <li><a  href="perfil.php?idUsuario=<?php echo $idUsuario; ?>">Mi muro</a></li><li><a  href="editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar perfil</a></li>
-                <li><a href="cuenta.php?idUsuario=<?php echo $idUsuario; ?>" >Estado de cuenta</a></li><li><a href="index.php" >Cerrar sesión</a></li>
 
-              </ul>
-
-            </div>
-          </div>
-        </div>
       </nav>
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
@@ -133,112 +144,167 @@
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
+          <div class="col-sm-12 cen clearfix">
+            <div class="promos">
+              <div class="video">
+
+                <video controls="true">
+                  <source src="./video/mov_bbb.mp4" type="video/mp4">
+                  Your browser does not support HTML5 video.
+                </video>
+
+
+              </div>
+              <div class="promo">
+                <div id="promo" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators" style="display:none;">
+                    <li data-target="#promo" data-slide-to="0" class="active"></li>
+                    <li data-target="#promo" data-slide-to="1" class=""></li>
+                    <li data-target="#promo" data-slide-to="2" class=""></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <a href="promociones.php"><img src="./Images/danone-promo.png"></a>
+                    </div>
+
+                    <div class="item">
+                      <a href="promociones.php"><img src="./Images/danone-promo.png"></a>
+                    </div>
+
+                    <div class="item">
+                      <a href="promociones.php"><img src="./Images/danone-promo.png"></a>
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#promo" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#promo" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
           <div class="col-sm-3 izq clearfix">
             <p class="block-titulo">Estado de cuenta</p>
             <div class="block-cuerpo">
-              <p>Mis conquistas <span class="datos">800</span></p>
-              <p>Mis batallas <span class="datos">200</span></p>
-              <p>Bolsa guerrera <span class="datos">150</span></p>
-              <p>Otros <span class="datos">0</span></p>
-              <p>Subtotal <span class="datos">1150</span></p>
-              <p>Puntos canjeados <span class="datos">100</span></p>
-              <hr class="block-separador">
+              <!--
+<p>Mis conquistas <span class="datos">800</span></p>
+<p>Mis batallas <span class="datos">200</span></p>
+<p>Bolsa guerrera <span class="datos">150</span></p>
+<p>Otros <span class="datos">0</span></p>
+<p>Subtotal <span class="datos">1150</span></p>
+<p>Puntos canjeados <span class="datos">100</span></p>-->
+
               <p class="tit1">Puntos Disponibles</p>
-              <p class="pts">1050 pts.</p>
-              <button class="outline c" onclick="location.href='cuenta.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
+              <p class="pts disp"><span>1050</span> pts.</p>
+              <hr class="block-separador cje">
+              <p class="tit1 cje">Puntos por canjear en Mi Carrito</p>
+              <p class="pts cje"><span>1050</span> pts.</p>
+              <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
-            <p class="block-titulo">Catálogo</p>
-            <div class="seccion block-cuerpo">
-              <p>Temporalidad</p>
-              <p>Tendencias</p>
-              <p>Personal</p>
-              <button class="outline c" onclick="location.href='categoria.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
-            </div>
-            <div class="block-cuerpo">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators" style="display:none;">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
+            <!--<p class="block-titulo">Catálogo</p>
+<div class="seccion block-cuerpo">
+<p>Temporalidad</p>
+<p>Tendencias</p>
+<p>Personal</p>
+<button class="outline c" onclick="location.href='categoria.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
+</div>-->
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts. 
-                          <span class="canjear">
-                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
-                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-
-                  </div>
-
-                  <div class="item">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts. 
-                          <span class="canjear">
-                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
-                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="art clearfix">
-                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
-                      <div class="art-desc">
-                        <a href="detalle.php?idUsuario=2&ID=54">
-                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
-                        </a>
-                        <p class="pts">155 pts. 
-                          <span class="canjear">
-                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
-                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+            <!-------CAMBIO---------->
+            <p class="block-titulo der r1">Top 5 Regional<span>+</span><span>-</span></p>
+            <div class="block-cuerpo top r1">
+              <div>
+                <span class="rank">1</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
               </div>
+              <div>
+                <span class="rank">2</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div class="active">
+                <span class="rank">3</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div class="">
+                <span class="rank">4</span><img src="Images/logoc.png">
+                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
+                <p class="info">Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">5</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+
             </div>
-            <p class="block-titulo">Explorar</p>
-            <div class="block-cuerpo">
-              <a class="seccion" href="destacadas.php?idUsuario=<?php echo $idUsuario; ?>">Publicaciones destacadas</a>
-              <p class="seccion">Grupos</p>
-              <ul class="listaguion">
-                <li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>
-                <li><a data-toggle="modal" data-target="#grupo" >Crear grupo</a></li>
-              </ul>
+            <p class="block-titulo der r2">Top 5 Por Sector<span>+</span><span>-</span></p>
+            <div class="block-cuerpo top r2">
+              <div>
+                <span class="rank">1</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">2</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">3</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">4</span><img src="Images/logoc.png">
+                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
+                <p class="info">Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">5</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+              <div class="active">
+                <span class="rank">9</span><img src="Images/logoc.png">
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p>Guerrero Sol <span class="datos">Region 5</span></p>
+              </div>
+
             </div>
+
+            <ul class="listaguion grupos">
+              <li><a data-toggle="modal" data-target="#grupo" ><img src="./Images/nuevas/grupos.svg" alt="crear grupos">Crear Grupo</a></li>
+              <li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>              
+            </ul>
+
+            <!-------CAMBIO---------->
+
+            <!--<p class="block-titulo">Explorar</p>
+<div class="block-cuerpo">
+<a class="seccion" href="destacadas.php?idUsuario=<?php echo $idUsuario; ?>">Publicaciones destacadas</a>
+<p class="seccion">Grupos</p>
+<ul class="listaguion">
+<li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>
+<li><a data-toggle="modal" data-target="#grupo" >Crear grupo</a></li>
+</ul>
+</div>-->
 
           </div>
           <div class="col-sm-6 cen clearfix">
@@ -445,103 +511,88 @@
 
               </div>
             </div>
-            <p class="block-titulo der r1">Top 5 Regional<span>+</span><span>-</span></p>
-            <div class="block-cuerpo top r1">
-              <div>
-                <span class="rank">1</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">2</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">3</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div class="active">
-                <span class="rank">4</span><img src="Images/logoc.png">
-                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
-                <p class="info">Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">5</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
 
-            </div>
-            <p class="block-titulo der r2">Top 5 Nacional<span>+</span><span>-</span></p>
-            <div class="block-cuerpo top r2">
-              <div>
-                <span class="rank">1</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">2</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">3</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">4</span><img src="Images/logoc.png">
-                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
-                <p class="info">Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">5</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div class="active">
-                <span class="rank">9</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
 
-            </div>
-            <p class="block-titulo der r3">Top 5 CEDIS<span>+</span><span>-</span></p>
-            <div class="block-cuerpo top r3">
-              <div>
-                <span class="rank">1</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">2</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">3</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">4</span><img src="Images/logoc.png">
-                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
-                <p class="info">Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div>
-                <span class="rank">5</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
-              <div class="active">
-                <span class="rank">9</span><img src="Images/logoc.png">
-                <p>Juan Pérez <span class="datos">800 pts</span></p>
-                <p>Guerrero Sol <span class="datos">Region 5</span></p>
-              </div>
+            <!-------CAMBIO---------->
+            <p class="block-titulo">Productos para tí</p>
+            <div class="block-cuerpo">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="display:none;">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="item">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="art clearfix">
+                      <div class="img"><img src="./Images/art/MLG17529.png"></div>
+                      <div class="art-desc">
+                        <a href="detalle.php?idUsuario=2&ID=54">
+                          <p title="Lavadora de 18 Kg. Whirlpool&reg;">Lavadora de 18 Kg. Whirlpool&reg;</p>
+                        </a>
+                        <p class="pts">155 pts. 
+                          <span class="canjear">
+                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(23,2)"></span>
+                            <span class="canje" title="Agregar a Carrito" onclick="agregar(23,2)"></span>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             </div>
+            <!-------CAMBIO---------->
+
 
           </div>
 
