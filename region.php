@@ -93,18 +93,69 @@
         </div>
         <div class="nav-contenedor right">
           <ul class="">
-            <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/home.svg"><span class="name"> Home</span></a></li><li class="img"><a href="./proximamente.html"><img src="./Images/svg/pencil.svg"><span class="name"> Capacitación</span></a></li>
-            <li class="img"><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/bag.svg"><span class="name"> Catálogo</span></a></li>
-            <li class="img"><a href="./favoritos.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/heart.svg"><span class="name"> Favoritos</span><span> (2)</span></a></li>
-            <li class="img"><a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>"><img src="./Images/svg/cart.svg"><span class="name"> Mi carrito</span><span> (2)</span></a></li>
-            <li class="img" id="btn-s1"><img src="./Images/svg/bell.svg"><span> (3)</span></li>
+
+
+            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre; ?>  </span></a></p>
+
+              <!--------------CAMBIO ------------------------>
+
+              <div class="carrito-contenedor">
+                <div class="col-xs-12 carrito">
+                  <div class="contenido">
+                    <ul class="cuenta">
+                      <li><a  href="perfil.php?idUsuario=<?php echo $idUsuario; ?>">Mi muro</a></li><li><a  href="editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar perfil</a></li>
+                      <li><a href="cuenta.php?idUsuario=<?php echo $idUsuario; ?>" >Estado de cuenta</a></li><li><a href="index.php" >Cerrar sesión</a></li>
+
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--------------CAMBIO ------------------------>
+
+
+            </li>
             <div class="separador"></div>
-            
-            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img src="./Images/svg/user.png"><span> <?php echo $nombre; ?>  </span></a></p></li> 
+
+            <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
+              <img class="img-a" src="./Images/svg/home.svg">
+              <img class="img-b" src="./Images/svg/home-b.svg">
+              <span class="name"> Home</span>
+              </a>
+            </li>
+            <li class="img">
+              <a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">
+                <img class="img-a" src="./Images/svg/bag.svg">
+                <img class="img-b" src="./Images/svg/bag-b.svg">
+                <span class="name"> Catálogo</span>
+              </a>
+            </li>
+            <li class="img">
+              <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
+                <img class="img-a" src="./Images/svg/cart.svg">
+                <img class="img-b" src="./Images/svg/cart-b.svg">
+                <span class="name"> Mi carrito</span>
+                <span> (2)</span>
+              </a></li>
+            <li class="img"
+                ><a href="./proximamente.html">
+              <img class="img-a" src="./Images/svg/pencil.svg">
+              <img class="img-b" src="./Images/svg/pencil-b.svg">
+              <span class="name"> E-learning</span>
+              </a>
+            </li>
+            <li class="img" id="btn-s1">
+              <img class="img-a" src="./Images/svg/bell.svg">
+              <img class="img-b" src="./Images/svg/bell-b.svg">
+              <span> (3)</span>
+            </li>
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img src="./Images/svg/Bell.svg"><span> (2)</span>
+          <img class="img-" src="./Images/svg/Bell.svg">
+          <img class="img-" src="./Images/svg/Bell.svg">
+          <span> (2)</span>
         </button>
 
         <div class="search-contenedor">
@@ -113,18 +164,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-        <div class="carrito-contenedor">
-          <div class="col-xs-12 carrito">
-            <div class="contenido">
-              <ul class="cuenta">
-                <li><a  href="perfil.php?idUsuario=<?php echo $idUsuario; ?>">Mi muro</a></li><li><a  href="editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar perfil</a></li>
-                <li><a href="cuenta.php?idUsuario=<?php echo $idUsuario; ?>" >Estado de cuenta</a></li><li><a href="index.php" >Cerrar sesión</a></li>
 
-              </ul>
-
-            </div>
-          </div>
-        </div>
       </nav>
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
