@@ -49,7 +49,7 @@
       <div class="login-lnv login-programas">
         <p class="lndg-p1">Bienvenido a</p>
         <img src="Images/logo.svg" style="width:70%;">
-        <p class="lndg-p3">Selecciona la herramienta a la cúal deseas ingresar</p>
+        <p class="lndg-p3">Selecciona la plataforma a la cual deseas ingresar:</p>
         <br>
         <br>
 
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="bloque">
+        <!--<div class="bloque">
           <div class="programa2 c1" onclick="location.href='./proximamente.html';">
             <div class="c2">
               <img src="Images/dashboard/3.png">
@@ -81,7 +81,7 @@
               <img src="Images/dashboard/4.png">
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </body>

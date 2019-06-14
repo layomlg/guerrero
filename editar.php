@@ -187,7 +187,7 @@
               <input>
             </div>
             <div class="col-sm-12">
-              <label>Regíon</label>
+              <label>Región</label>
               <input>
             </div>
           </div>
@@ -211,7 +211,6 @@
         </div>
         <div class="col-xs-4 edit-perfil">
 
-          <p class="f12">Editar mi perfil</p>
           <div class="edit-img-perfil" data-toggle="modal" data-target="#foto">
             <img src="Images/svg/camera.svg">
             <p>Editar foto de perfil</p>
@@ -229,7 +228,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Garra Jaguar 2018 <span><a>Politicas de Privacidad</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Soporte</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>
@@ -279,9 +278,9 @@
         hi= hi + "px";
         $(".banner").css("height",hi);
       }
-      $(document).ready(function(e){
+      /*$(document).ready(function(e){
         $("#foto").modal();        
-      });
+      });*/
 
     </script>
 

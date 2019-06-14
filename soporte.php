@@ -174,9 +174,9 @@
       <div class="row">
         <div class="col-sm-8 soporte ">
           <div class="col-sm-offset-2 col-sm-8 datos">
-            <p class="f12" style="text-align:left;">Guerrero(a), si necesitas más información dejanos tu mensaje.</p>
+            <p class="f12" style="text-align:left;">Guerrero(a), si necesitas más información déjanos tu mensaje.</p>
             <div class="col-sm-12">
-              <label>Nombre Completo Promotor</label>
+              <label>Nombre Completo Promovendedor</label>
             </div>
             <div class="col-sm-8">
               <label>Correo electrónico</label>
@@ -217,7 +217,7 @@
             </div>
             <div class="col-sm-12">
               <p>Correo electrónico</p>
-              <a >garrajaguar@mlg.com.mx</a>
+              <a >guerrerosdanone@mlg.com.mx</a>
             </div>
             <div class="col-sm-12">
               <p>Horario de servicio<br>Lunes a Viernes<br> 11:00 a 20:00 hrs.</p>
@@ -232,7 +232,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Garra Jaguar 2018 <span><a>Politicas de Privacidad</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Soporte</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>
