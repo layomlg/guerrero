@@ -32,6 +32,9 @@
         background: linear-gradient(45deg, rgba(149,211,215,1) 0%, rgba(68,125,217,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95d3d7', endColorstr='#447dd9', GradientType=1 );
       }
+      .contenedor{
+        background: #EBEBEB;
+      }
       .login-datos{
         display: block;
         width: 100%;
@@ -54,39 +57,23 @@
     <div class="contenedor">
       <div class="login-lnv login-programas">
         <div class="row">
-<!--
-          <div class="col-sm-6 h">
-            <div><img id="logojaguar" src="Images/logoc.png"></div>
-          </div>
--->
-          <div class="col-sm-6">
-            <p class="lndg-p1">Bienvenido a:</p>
-            <img src="Images/logo.svg" style="width:70%;">
 
+          <div class="col-sm-6 h">
+            <div><img id="logojaguar" src="Images/logo.svg"></div>
+          </div>
+
+          <div class="col-sm-6">
+            <p class="lndg-p1">Bienvenido Guerrero(a):</p>
             <div class="login-datos">
               <p>Usuario</p>
-              <input id="user" type="text">
+              <input id="user" type="text" placeholder="Usuario">
               <p>Contraseña</p>
-              <input type="password">
+              <input type="password" placeholder="Contraseña">
               <p class="r"><a data-toggle="modal" data-target="#contrasenia">Olvide contraseña</a></p>
               <input id="entrar" type="button" value="Ingresar" onclick="location.href='./dashboard.php'">
-              <!--<p class="c">¿Aún no eres usuario?</p>
-<input type="button" value="Registrate aqui" onclick="location.href='./registro.php'">-->
             </div>
           </div>
         </div>
-        <!--<p class="lndg-p1">Bienvenido a</p>
-<p class="lndg-p2">Bienestar Total</p>
-<div class="login-datos">
-<p>Usuario</p>
-<input id="user" type="text">
-<p>Contraseña</p>
-<input type="password">
-<p class="r"><a data-toggle="modal" data-target="#contrasenia">Olvide mi contraseña</a></p>
-<input id="entrar" type="button" value="Ingresar" onclick="location.href='./dashboard.php'">
-<p class="c">¿Aún no eres usuario?</p>
-<input type="button" value="Registrate aqui" onclick="location.href='./registro.php'">
-</div>-->
       </div>
     </div>
     <!-- Modal creacion de grupo-->

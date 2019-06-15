@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Jaguar</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -157,7 +157,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img class="img-" src="./Images/svg/Bell.svg">
+           
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -173,7 +173,7 @@
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
-    <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
+    <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="row">
         <div class="col-xs-8 edit-perfil">
@@ -188,7 +188,7 @@
             </div>
             <div class="col-sm-12">
               <label>Región</label>
-              <input>
+              <input disabled value="Región 5">
             </div>
           </div>
           <div class="col-sm-6 contraseña">
@@ -228,7 +228,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>

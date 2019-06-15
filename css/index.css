@@ -6291,13 +6291,20 @@ p.block-titulo + .block-cuerpo {
   flex: none;
   position: relative;
 }
-.block-categorias > .categoria:hover{
-  background-color: #2C366E;
-  transform: rotateY(360deg);
-  z-index: 2;
-}
-.block-categorias > .categoria:hover p{
-  color: #ffffff;
+@media (min-width: 768px) {
+  .block-categorias > .categoria:hover{
+    background-color: #2C366E;
+    transform: rotateY(360deg);
+    z-index: 2;
+  }
+  .block-categorias > .categoria:hover p{
+    color: #ffffff;
+  }
+  .block-categorias > .categoria:hover .subcat{
+    display: block;
+    background-color: #2C366E;
+    color: #fff;
+  }
 }
 
 
@@ -6321,11 +6328,44 @@ p.block-titulo + .block-cuerpo {
 .block-categorias > .categoria .subcat ul li a p{
   padding: 4px 8px;
 }
-.block-categorias > .categoria:hover .subcat{
-  display: block;
-  background-color: #2C366E;
-  color: #fff;
+
+
+
+@media (max-width: 768px) {
+  .block-categorias > .categoria{
+    display: inline-block;
+    flex: none;
+    float: left;
+    width: 50%;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .block-categorias > .categoria .subcat{
+    display: block;
+    background-color: #2C366E;
+    color: #fff;
+  }
+
+  .block-categorias > .categoria .subcat{
+    display: block;
+    position: relative;
+    left: 0%;
+    top:0%;
+    background-color: #ffffff;
+    width: 100%;
+    color: #2C366E;
+    z-index: 1;
+  }
+  .block-categorias > .categoria p{
+    color: #2C366E;
+  }
 }
+
+
 
 div.block-cuerpo.r1, div.block-cuerpo.r2, div.block-cuerpo.r3 {
   display: block;
@@ -6365,7 +6405,7 @@ hr.block-separador.cje {
   position: relative;
   display: flex;
   padding: 0px;
-  flex: 1 1 60%;
+  flex: 1 1 53%;
   background: black;
 }
 .promos > .video > video{
@@ -6382,7 +6422,7 @@ hr.block-separador.cje {
   display: flex;
   padding: 0px 15px;
   padding-right: 0px;
-  flex: 1 1 40%;
+  flex: 1 1 47%;
   background: #ffffff;
 }
 .promos > .promo img{
@@ -6635,5 +6675,80 @@ div.block-cuerpo.top > div > p {
   font-size: 14px;
   font-weight: bold;
   display: block;
-  
+
+}
+.datos {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+td.nom-orden > div.producto > img {
+  width: 20%;
+  margin: 0px 10%;
+}
+
+button.gris.b-like,
+button.gris.b-comment {
+  background-color: white;
+  color: #2C366E;
+  border-radius: 0;
+  border: 0px none;
+  opacity: 1;
+  width: calc(50% - 0px);
+  float: left;
+  margin: 10px 0px!important;
+}
+button.gris.b-like.active,
+button.gris.b-comment.active,
+button.gris.b-like:hover,
+button.gris.b-comment:hover {
+  background-color: #e8e8e8;
+}
+.botones > div.btn-cont{
+  margin-left: -15px; 
+  margin-right: -15px;
+  padding: 10px -15px;
+  border-top: 1px solid #d8d9de;
+  border-bottom: 1px solid #d8d9de;
+
+}
+.botones > .likes > span {
+  font-weight: bold;
+  color: #2C366E;
+  font-size: 14px;
+}
+
+
+
+
+.dir-1line div.direccion2{
+  text-align: center;
+}
+.dir-1line div.direccion2 > p.nombre {
+  text-align: center
+}
+.dir-1line div.direccion2 > p:not(.nombre) {
+  font-size: 12px;
+  margin: 0px;
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.pub-filtro{
+  padding: 0px 10px;
+}
+.pub-filtro select {
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #2C366E;
+}
+.pub-filtro input {
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #2C366E;
+
 }

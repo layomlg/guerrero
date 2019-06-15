@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- BOOTSTRAP Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/daterangepicker.css" />
 
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
@@ -95,7 +96,7 @@
           <ul class="">
 
 
-            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre; ?>  </span></a></p>
+            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre;?></span></a></p>
 
               <!--------------CAMBIO ------------------------>
 
@@ -153,7 +154,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img class="img-" src="./Images/svg/Bell.svg">
+           
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -169,7 +170,7 @@
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
-    <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
+    <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
@@ -346,6 +347,26 @@
                 <button class="outline f">Publicar</button>
               </div>
             </div>
+
+            <div class="block-cuerpo">
+              <p class="seccion">Filtrar publicaciones por: </p>
+              <div class="pub-filtro">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <select>
+                      <option value="0">Todas las publicaciones</option>
+                      <option value="0">Más Me gusta</option>
+                      <option value="0">Menos Me gusta</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+
+                    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="block-cuerpo">
               <div class="cabecera">
                 <img class="logo" src="./Images/logoc.png">
@@ -360,10 +381,11 @@
 
               <img src="Images/publicacion.png">
               <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
+                <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
+                <div class="btn-cont clearfix">           
+                  <button class="gris b-like"><img src="Images/svg/like.png"> Me gusta</button>                
+                  <button class="gris b-comment"><img  src="Images/svg/globe.png"> Comentar</button>
+                </div>
               </div>
               <div class="comentar comentario clearfix">
                 <img class="logo" src="./Images/user1.jpeg">
@@ -408,10 +430,11 @@
 
               <img src="Images/publicacion.png">
               <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
+                <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
+                <div class="btn-cont clearfix">           
+                  <button class="gris b-like"><img src="Images/svg/like.png"> Me gusta</button>                
+                  <button class="gris b-comment"><img  src="Images/svg/globe.png"> Comentar</button>
+                </div>
               </div>
               <div class="comentar comentario clearfix">
                 <img class="logo" src="./Images/user1.jpeg">
@@ -456,10 +479,11 @@
 
               <img src="Images/banners/banner_test.png">
               <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
+                <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
+                <div class="btn-cont clearfix">           
+                  <button class="gris b-like"><img src="Images/svg/like.png"> Me gusta</button>                
+                  <button class="gris b-comment"><img  src="Images/svg/globe.png"> Comentar</button>
+                </div>
               </div>
               <div class="comentar comentario clearfix">
                 <img class="logo" src="./Images/user1.jpeg">
@@ -641,7 +665,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Garra Guerrero 2018 <span><a>Politicas de Privacidad</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Garra Guerrero 2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>
@@ -731,6 +755,18 @@
         $("p.r3 > span").toggle();
       });
 
+    </script>
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>-->
+    <script type="text/javascript" src="./js/datarange/moment.min.js"></script>
+    <script type="text/javascript" src="./js/datarange/daterangepicker.min.js"></script>
+    <script>
+      $(function() {
+        $('input[name="daterange"]').daterangepicker({
+          opens: 'left'
+        }, function(start, end, label) {
+          console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+        });
+      });
     </script>
 
   </body>

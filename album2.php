@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Jaguar</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -150,7 +150,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img class="img-" src="./Images/svg/Bell.svg">
+           
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -166,7 +166,7 @@
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
-    <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
+    <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
@@ -298,7 +298,7 @@
 
             </div>
 
-            <p class="block-titulo">Publicaciones Destacadas</p>
+            <p class="block-titulo">Álbums</p>
             <div class="block-cuerpo top">
               <img src="./Images/album1.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
               <div class="bton">
@@ -340,7 +340,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>
@@ -375,10 +375,11 @@
 
               <img src="Images/publicacion.png">
               <div class="botones">
-                <span>(3)</span>
-                <button class="gris"><img src="Images/svg/like.png"> Me gusta</button>
-                <span>(5)</span>
-                <button class="gris"><img  src="Images/svg/globe.png"> Comentar</button>
+                <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
+                <div class="btn-cont clearfix">           
+                  <button class="gris b-like"><img src="Images/svg/like.png"> Me gusta</button>                
+                  <button class="gris b-comment"><img  src="Images/svg/globe.png"> Comentar</button>
+                </div>
               </div>
               <div class="comentar comentario clearfix">
                 <img class="logo" src="./Images/user1.jpeg">
@@ -400,9 +401,9 @@
                 </div>
                 <br>
               </div>
-              
-              
-              
+
+
+
               <div class="comentar comentario editar clearfix">
                 <img class="logo" src="./Images/user1.jpeg">
                 <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
@@ -413,54 +414,54 @@
                 </div>
                 <br>
               </div><div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div><div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div><div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div><div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
-              </div><div class="comentar comentario editar clearfix">
-                <img class="logo" src="./Images/user1.jpeg">
-                <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
-                <span class="eliminar"></span>
-                <span class="editar"></span>                
-                <div class="botones">
-                  <button class="outline f">Comentar</button>
-                </div>
-                <br>
+              <img class="logo" src="./Images/user1.jpeg">
+              <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+              <span class="eliminar"></span>
+              <span class="editar"></span>                
+              <div class="botones">
+                <button class="outline f">Comentar</button>
               </div>
-              
-              
-              
+              <br>
+              </div><div class="comentar comentario editar clearfix">
+              <img class="logo" src="./Images/user1.jpeg">
+              <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+              <span class="eliminar"></span>
+              <span class="editar"></span>                
+              <div class="botones">
+                <button class="outline f">Comentar</button>
+              </div>
+              <br>
+              </div><div class="comentar comentario editar clearfix">
+              <img class="logo" src="./Images/user1.jpeg">
+              <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+              <span class="eliminar"></span>
+              <span class="editar"></span>                
+              <div class="botones">
+                <button class="outline f">Comentar</button>
+              </div>
+              <br>
+              </div><div class="comentar comentario editar clearfix">
+              <img class="logo" src="./Images/user1.jpeg">
+              <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+              <span class="eliminar"></span>
+              <span class="editar"></span>                
+              <div class="botones">
+                <button class="outline f">Comentar</button>
+              </div>
+              <br>
+              </div><div class="comentar comentario editar clearfix">
+              <img class="logo" src="./Images/user1.jpeg">
+              <textarea maxlength="200" rows="2" data-info="textarea-words-info" style="resize:none">JUAREZ TORRES FRANCISCO PEDRO, SIGUAMOS CON TODO GRUPO COAPA ANIMO</textarea>
+              <span class="eliminar"></span>
+              <span class="editar"></span>                
+              <div class="botones">
+                <button class="outline f">Comentar</button>
+              </div>
+              <br>
+              </div>
+
+
+
               <div class="comentar clearfix">
                 <img class="logo" src="./Images/logoc.png">
                 <textarea></textarea>

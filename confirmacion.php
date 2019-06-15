@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Jaguar</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -153,7 +153,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img class="img-" src="./Images/svg/Bell.svg">
+           
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -169,110 +169,116 @@
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
-    <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
+    <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="elemento clearfix" style="text-align:left;">
         <br>
-        <p class="sec-titulo"><img src="Images/svg/cartf.png"> Confirmación de pedido</p>
-        <div class="col-sm-8 cntnt clearfix">
-          <img src="Images/gracias.png">
+        <!--<p class="sec-titulo"><img src="Images/svg/cartf.png"> Confirmación de pedido</p>-->
+        <div class="col-sm-12 cntnt clearfix">
+          <img src="Images/gracias.png" style="width:100%;">
         </div>
+
+        <div class="col-xs-12 dir-1line">
+          <p class="block-titulo">Se entregará en:</p>
+          <div class="block-cuerpo clearfix">
+            <div class="direccion2">
+              <p class="nombre">Casa 1</p>
+              <p class="calle">Uxmal 336 - 2</p>
+              <p class="colonia">Narvarte oriente</p>
+              <p class="delegacion">BenitoJuaréz</p>
+              <p class="telefono">Tel: 0344 332 5931</p>
+            </div>
+          </div>
+        </div>
+
         <!--<div class="col-sm-8 cntnt clearfix">
 <p style="font-size:12px;">¡Gracias por realizar tu canje, te esperamos pronto!</p>
 <p style="font-size:12px;">No. de orden <span style="font-weight: bold;" >123456</span></p>
 <p style="font-size:12px;">En breve recibirás un correo electrónico con la confirmación de tu orden.</p>
 </div>-->
-        <div class="col-sm-4 cntnt clearfix">
-          <p style="font-size:12px;">Orden # 123 456</p>
-          <p style="font-size:12px;">Fecha 22-01-06</p>
-        </div>
-        <div class="col-sm-4 cntnt clearfix">
-          <p style="font-size:12px;">Guia 123 444 5567</p>
-          <p style="font-size:12px;">Estatus: <span>EN PROCESO</span></p>
-        </div>
+        <!--        <div class="col-sm-4 cntnt clearfix">
+<p style="font-size:12px;">Orden # 123 456</p>
+<p style="font-size:12px;">Fecha 22-01-06</p>
+</div>
+<div class="col-sm-4 cntnt clearfix">
+<p style="font-size:12px;">Guia 123 444 5567</p>
+<p style="font-size:12px;">Estatus: <span>EN PROCESO</span></p>
+</div>-->
       </div>
       <div class="elemento clearfix">
         <div class="row">
           <div class="cnt clearfix">
-
-            <p class="tit">Resumen del pedido orden</p>
-            <table class="det">
-              <thead class="det">
-                <tr>
-                  <th class="nom-orden">Nombre del producto</th>
-                  <th class="can-orden">Cantidad</th>
-                  <th class="fol-orden">Folio</th>
-                  <th class="num-orden">Orden #</th>
-                  <th class="ref-orden">Referencia</th>
-                </tr>
-              </thead>
-              <tbody class="det">
-                <tr>
-                  <td class="nom-orden">
-                    <div class="producto">
-                      <img src="Images/art/MLG18519.png">
-                      <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                      <p>980-001073</p>
-                      <p>negro</p>
-                      <br>
-                      <p>código: MLG18519</p>
-                      <p>7,500 pts.</p>
-                    </div>
-                  </td>
-                  <td class="can-orden">1</td>
-                  <td class="fol-orden">1541453</td>
-                  <td class="num-orden">24198326</td>
-                  <td class="ref-orden">22-01-16</td>
-                </tr>
-                <tr>
-                  <td class="nom-orden">
-                    <div class="producto">
-                      <img src="Images/art/MLG18519.png">
-                      <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                      <p>980-001073</p>
-                      <p>negro</p>
-                      <br>
-                      <p>código: MLG18519</p>
-                      <p>7,500 pts.</p>
-                    </div>
-                  </td>
-                  <td class="can-orden">1</td>
-                  <td class="fol-orden">1541453</td>
-                  <td class="num-orden">24198326</td>
-                  <td class="ref-orden">22-01-16</td>
-                </tr>
-                <tr>
-                  <td class="nom-orden">
-                    <div class="producto">
-                      <img src="Images/art/MLG18519.png">
-                      <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                      <p>980-001073</p>
-                      <p>negro</p>
-                      <br>
-                      <p>código: MLG18519</p>
-                      <p>7,500 pts.</p>
-                    </div>
-                  </td>
-                  <td class="can-orden">1</td>
-                  <td class="fol-orden">1541453</td>
-                  <td class="num-orden">24198326</td>
-                  <td class="ref-orden">22-01-16</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="row clearfix dir"> 
-              <div class="col-xs-6">
-                <div class="direccion2-tit">Se entregará en:</div>
-                <div class="direccion2">
-                  <p class="nombre">Casa 1</p>
-                  <p class="calle">Uxmal 336 - 2</p>
-                  <p class="colonia">Narvarte oriente</p>
-                  <p class="delegacion">BenitoJuaréz</p>
-                  <p class="telefono">Tel: 0344 332 5931</p>
-                </div>
-              </div>
+            <p class="block-titulo">Resumen del pedido orden</p>
+            <div class="block-cuerpo clearfix">
+              <table class="det">
+                <thead class="det">
+                  <tr>
+                    <th class="nom-orden">Nombre del producto</th>
+                    <th class="can-orden">Cantidad</th>
+                    <th class="fol-orden">ID Canje</th>
+                    <th class="num-orden">Guia #</th>
+                    <th class="ref-orden">Fecha de Canje</th>
+                    <th class="ref-orden">Estatus</th>
+                  </tr>
+                </thead>
+                <tbody class="det">
+                  <tr>
+                    <td class="nom-orden">
+                      <div class="producto">
+                        <img src="Images/art/MLG18519.png">
+                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
+                        <p>980-001073</p>
+                        <p>negro</p>
+                        <br>
+                        <p>código: MLG18519</p>
+                        <p>7,500 pts.</p>
+                      </div>
+                    </td>
+                    <td class="can-orden">1</td>
+                    <td class="fol-orden">1541453</td>
+                    <td class="num-orden">24198326</td>
+                    <td class="ref-orden">22-01-16</td>
+                    <td class="ref-orden">EN PROCESO</td>
+                  </tr>
+                  <tr>
+                    <td class="nom-orden">
+                      <div class="producto">
+                        <img src="Images/art/MLG18519.png">
+                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
+                        <p>980-001073</p>
+                        <p>negro</p>
+                        <br>
+                        <p>código: MLG18519</p>
+                        <p>7,500 pts.</p>
+                      </div>
+                    </td>
+                    <td class="can-orden">1</td>
+                    <td class="fol-orden">1541453</td>
+                    <td class="num-orden">24198326</td>
+                    <td class="ref-orden">22-01-16</td>
+                    <td class="ref-orden">EN PROCESO</td>
+                  </tr>
+                  <tr>
+                    <td class="nom-orden">
+                      <div class="producto">
+                        <img src="Images/art/MLG18519.png">
+                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
+                        <p>980-001073</p>
+                        <p>negro</p>
+                        <br>
+                        <p>código: MLG18519</p>
+                        <p>7,500 pts.</p>
+                      </div>
+                    </td>
+                    <td class="can-orden">1</td>
+                    <td class="fol-orden">1541453</td>
+                    <td class="num-orden">24198326</td>
+                    <td class="ref-orden">22-01-16</td>
+                    <td class="ref-orden">EN PROCESO</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-
           </div>
         </div>
       </div>
@@ -282,7 +288,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>

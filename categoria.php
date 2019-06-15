@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Jaguar</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -153,7 +153,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-          <img class="img-" src="./Images/svg/Bell.svg">
+           
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -169,7 +169,7 @@
     </div>
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tus favoritos</div>
-    <div class="animacion-carga"><div><img src="./Images/logoc.png"> <p>Cargando...</p></div></div>
+    <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
@@ -325,6 +325,42 @@
                 </select>
               </form>
             </div>
+            <p class="block-titulo">Premiaciones</p>
+            <div class="block-cuerpo">
+              <div id="promo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="display:none;">
+                  <li data-target="#promo" data-slide-to="0" class="active"></li>
+                  <li data-target="#promo" data-slide-to="1"></li>
+                  <li data-target="#promo" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="./Images/promo1.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo2.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo3.png">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#promo" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#promo" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
           </div>
           <div class=" col-sm-9 clearfix">
             <div class="elemento clearfix">
@@ -415,7 +451,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook  2018 <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>

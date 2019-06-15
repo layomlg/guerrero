@@ -418,7 +418,7 @@ div.search-contenedor{
   overflow-y: auto;
 
   width: 100vw;
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   background-color: #f7f7f7;
   -webkit-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.1);
