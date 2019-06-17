@@ -175,7 +175,7 @@
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
     <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
-      <div class="row">
+      <div class="row" style="background-color:#ffffff;">
         <div class="col-xs-8 edit-perfil">
           <div class="col-sm-6 datos">
             <div class="col-sm-12">
