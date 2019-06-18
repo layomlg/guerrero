@@ -7,7 +7,7 @@ Highcharts.chart('container', {
     text: ''
   },
   subtitle: {
-    text: 'Evolucíon de tus acumulación de puntos'
+    text: 'Evolución de tus acumulación de puntos'
   },
   xAxis: {
     categories: ['Jan', 'Feb', 'Mar','Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']

@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Guerrero</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -132,12 +132,12 @@
                 <span class="name"> Catálogo</span>
               </a>
             </li>
-            <li class="img">
+            <li class="img pr-20">
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
                 <span class="name"> Mi carrito</span>
-                <span> (2)</span>
+                <span class="indicator">3</span>
               </a></li>
             <li class="img"
                 ><a href="./proximamente.html">
@@ -146,17 +146,17 @@
               <span class="name"> E-learning</span>
               </a>
             </li>
-            <li class="img" id="btn-s1">
+            <li class="img pr-20" id="btn-s1">
               <img class="img-a" src="./Images/svg/bell.svg">
               <img class="img-b" src="./Images/svg/bell-b.svg">
-              <span> (3)</span>
+              <span class="indicator">3</span>
             </li>
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
-          <span> (2)</span>
+          <span class="indicator">3</span>
         </button>
 
         <div class="search-contenedor">
@@ -177,15 +177,17 @@
           <div class="col-sm-12 cen clearfix">
             <div class="promos">
               <div class="video">
+                <!--<p class="block-titulo">Video</p>-->
 
                 <video controls="true">
-                  <source src="./video/mov_bbb.mp4" type="video/mp4">
+                  <source src="./video/ShotsActivia.mp4" type="video/mp4">
                   Your browser does not support HTML5 video.
                 </video>
 
 
               </div>
               <div class="promo">
+                <!--<p class="block-titulo">Retos y noticias</p>-->
                 <div id="retos" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators" style="display:none;">
@@ -555,7 +557,7 @@
 
                 <br>
                 <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/PAB_2018_Marzo_Abril_2018_UTT.pdf" id="Left_utt" target="new">
-                  <button type="button" class="outline"><i class="fa fa-download"></i>Descargar PAB</button>
+                  <button type="button" class="outline"><i class="fa fa-download"></i>Ver PAB</button>
                 </a>
                 <br>
                 <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">

@@ -6752,3 +6752,19 @@ button.gris.b-comment:hover {
   border: 1px solid #2C366E;
 
 }
+
+
+.nav-contenedor.right > ul > li span.indicator{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    border-radius: 34px;
+    background-color: #F08804;
+
+    color: #fff!important;
+
+    padding: 1px 5px;
+}
+.pr-20{
+  padding-right: 20px!important;
+}

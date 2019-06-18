@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Garra Guerrero</title>
+    <title>GuerreroBook</title>
     <link rel="shortcut icon" href="./Images/favicon.ico"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

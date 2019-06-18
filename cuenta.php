@@ -371,13 +371,13 @@
               </table>
             </div>
             <div class="block-cuerpo">
-              <p class="tit">Historico de canjes</p>
+              <p class="tit">Histórico de canjes</p>
               <div class="row">
                 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
               </div>
             </div>
             <div class="block-cuerpo">
-              <p class="tit">Historico de canjes</p>
+              <p class="tit">Histórico de canjes</p>
               <table class="det">
                 <thead class="det">
                   <tr>

@@ -153,7 +153,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -324,10 +324,9 @@
                     <p class="colonia">Reforma</p>
                     <p class="delegacion">Miguel Hidalgo</p>
                     <p class="telefono">Tel: 0344 332 5931</p>
-                    <!--
-<button class="outline" data-toggle="modal" data-target="#add-dir">Editar</button>
-<button class="outline f">Eliminar</button>
--->
+
+                    <button class="outline" data-toggle="modal" data-target="#add-dir">Editar</button>
+                    <button class="outline f">Eliminar</button>
                   </div>
                 </div>
                 <!--<div class="col-xs-4">

@@ -150,7 +150,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -350,6 +350,24 @@
               <div class="botones">
                 <button class="gris" data-toggle="modal" data-target="#foto" ><img src="Images/svg/camera.png"> Subir Fotos</button>
                 <button class="outline f">Publicar</button>
+              </div>
+            </div>
+            <div class="block-cuerpo">
+              <p class="seccion">Filtrar publicaciones por: </p>
+              <div class="pub-filtro">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <select>
+                      <option value="0">Todas las publicaciones</option>
+                      <option value="0">Más Me gusta</option>
+                      <option value="0">Menos Me gusta</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+
+                    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+                  </div>
+                </div>
               </div>
             </div>
             <div class="block-cuerpo">
