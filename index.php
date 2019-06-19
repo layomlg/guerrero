@@ -59,17 +59,17 @@
         <div class="row">
 
           <div class="col-sm-6 h">
-            <div><img id="logojaguar" src="Images/logo.svg"></div>
+            <div><img id="logojaguar" src="Images/danone.png"></div>
           </div>
 
           <div class="col-sm-6">
-            <p class="lndg-p1">Bienvenido Guerrero(a):</p>
+            <p class="lndg-p1">Bienvenido</p>
             <div class="login-datos">
               <p>Usuario</p>
-              <input id="user" type="text" placeholder="Usuario">
+              <input id="user" type="text" placeholder="No. de empleado">
               <p>Contraseña</p>
               <input type="password" placeholder="Contraseña">
-              <p class="r"><a data-toggle="modal" data-target="#contrasenia">Olvide contraseña</a></p>
+              <p class="r"><a data-toggle="modal" data-target="#contrasenia">Olvidé mi contraseña</a></p>
               <input id="entrar" type="button" value="Ingresar" onclick="location.href='./dashboard.php'">
             </div>
           </div>

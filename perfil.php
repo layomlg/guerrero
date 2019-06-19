@@ -76,10 +76,10 @@
               <img src="./Images/svg/search.svg">
               <input>            
             </div>
-            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Home</a></li><li><a href="./proximamente.html">Capacitación</a></li>
+            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Inicio</a></li><li><a href="./proximamente.html">Capacitación</a></li>
             <li><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">Catálogo<span class="caret"></span></a></li>
             <li><a href="favoritos.php?idUsuario=<?php echo $idUsuario; ?>">Favoritos</a></li><li><a >Wishlist</a></li>
-            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Mi carrito</a></li>
+            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Carrito</a></li>
             <li class="cnta"><a>Mi cuenta<span class="caret"></span></a>
               <ul>
                 <li><a href="./editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar Perfil</a></li>
@@ -118,7 +118,7 @@
             <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
               <img class="img-a" src="./Images/svg/home.svg">
               <img class="img-b" src="./Images/svg/home-b.svg">
-              <span class="name"> Home</span>
+              <span class="name"> Inicio</span>
               </a>
             </li>
             <li class="img">
@@ -132,7 +132,7 @@
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
-                <span class="name"> Mi carrito</span>
+                <span class="name"> Carrito</span>
                 <span> (2)</span>
               </a></li>
             <li class="img"
@@ -177,7 +177,9 @@
 
           </div>
           <div class="informacion-perfil">
-            <p>Miguel González</p>
+            <p>Alias</p>
+            <div class="separador"></div>
+            <p><?php echo $nombre; ?></p>
             <div class="separador"></div>
             <p>Región 4</p>
           </div>
@@ -315,7 +317,7 @@
 
             <p class="block-titulo">Álbumes</p>
             <div class="block-cuerpo top">
-              <img src="./Images/album1.png" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
+              <img src="./Images/publicaciones/p9.JPG" onclick="location.href='./album.php?idUsuario=<?php echo $idUsuario; ?>';">
               <div class="bton">
                 <button type="button" class="outline c mb-10" onclick="location.href='album.php?idUsuario=<?php echo $idUsuario; ?>';"><i class="fa fa-download" ></i>Ver Álbumes</button>
               </div>
@@ -376,13 +378,13 @@
                 <p class="titulo">Aliado Jaguar</p>
                 <p class="info">22/12/2017 10:30am</p>
                 <br>
-                <p class="contenido">Plan de acción Danone-DANETTE</p>
+                <p class="contenido">Plan de acción</p>
                 <span class="destacado"></span>
                 <span class="editar"></span>
                 <span class="eliminar"></span>
               </div>
 
-              <img src="Images/publicacion.png">
+              <img src="Images/publicaciones/p4.JPG">
               <div class="botones">
                 <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
                 <div class="btn-cont clearfix">           
@@ -425,13 +427,13 @@
                 <p class="titulo">Aliado Jaguar</p>
                 <p class="info">22/12/2017 10:30am</p>
                 <br>
-                <p class="contenido">Plan de acción Danone-DANETTE</p>
+                <p class="contenido">Plan de acción</p>
                 <span class="destacado"></span>
                 <span class="editar"></span>
                 <span class="eliminar"></span>
               </div>
 
-              <img src="Images/publicacion.png">
+              <img src="Images/publicaciones/p5.JPG">
               <div class="botones">
                 <p class="likes"><span>3</span> Me gusta<br><span>5</span> Comentarios</p>
                 <div class="btn-cont clearfix">           
@@ -478,20 +480,28 @@
                   <li data-target="#promo" data-slide-to="0" class="active"></li>
                   <li data-target="#promo" data-slide-to="1"></li>
                   <li data-target="#promo" data-slide-to="2"></li>
+                  <li data-target="#promo" data-slide-to="3"></li>
+                  <li data-target="#promo" data-slide-to="4"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="./Images/promo1.png">
+                    <img src="./Images/Bocas%20GIF.gif">
                   </div>
 
                   <div class="item">
-                    <img src="./Images/promo2.png">
+                    <img src="./Images/Silk%20Chocolate.jpg">
                   </div>
 
                   <div class="item">
-                    <img src="./Images/promo3.png">
+                    <img src="./Images/prioridad/pbod1.png">
+                  </div>
+                  <div class="item">
+                    <img src="./Images/prioridad/phip1.png">
+                  </div>
+                  <div class="item">
+                    <img src="./Images/prioridad/ppre1.png">
                   </div>
                 </div>
 
@@ -508,8 +518,8 @@
               <div id="Left_pnlUTT" style="text-align: center">
 
                 <br>
-                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/PAB_2018_Marzo_Abril_2018_UTT.pdf" id="Left_utt" target="new">
-                  <button type="button" class="outline"><i class="fa fa-download"></i>Descargar PAB</button>
+                <a href="" id="Left_utt" data-toggle="modal" data-target="#pab-viewer">
+                  <button type="button" class="outline"><i class="fa fa-download"></i>Ver PAB</button>
                 </a>
                 <br>
                 <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
@@ -646,6 +656,28 @@
           </div>
         </div>
 
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="pab-viewer" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="clearfix">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="block-cuerpo">
+              <object class="pdfviewer" data="./files/PAM%20Junio%20UTT%202019-Final.pdf#toolbar=0&navpanes=0&scrollbar=0"></object>
+            </div>
+
+
+
+
+          </div>
+        </div>
       </div>
     </div>
     <script type="text/javascript">

@@ -83,10 +83,10 @@
               <img src="./Images/svg/search.svg">
               <input>            
             </div>
-            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Home</a></li><li><a href="./proximamente.html">Capacitación</a></li>
+            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Inicio</a></li><li><a href="./proximamente.html">Capacitación</a></li>
             <li><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">Catálogo<span class="caret"></span></a></li>
             <li><a href="favoritos.php?idUsuario=<?php echo $idUsuario; ?>">Favoritos</a></li><li><a >Wishlist</a></li>
-            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Mi carrito</a></li>
+            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Carrito</a></li>
             <li class="cnta"><a>Mi cuenta<span class="caret"></span></a>
               <ul>
                 <li><a href="./editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar Perfil</a></li>
@@ -125,7 +125,7 @@
             <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
               <img class="img-a" src="./Images/svg/home.svg">
               <img class="img-b" src="./Images/svg/home-b.svg">
-              <span class="name"> Home</span>
+              <span class="name"> Inicio</span>
               </a>
             </li>
             <li class="img">
@@ -139,7 +139,7 @@
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
-                <span class="name"> Mi carrito</span>
+                <span class="name"> Carrito</span>
                 <span> (2)</span>
               </a></li>
             <li class="img"
@@ -157,7 +157,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -175,53 +175,77 @@
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
     <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
     <div class="contenedor">
-      <div class="row" style="background-color:#ffffff;">
-        <div class="col-xs-8 edit-perfil">
-          <div class="col-sm-6 datos">
-            <div class="col-sm-12">
-              <label>Nombre Completo</label>
-              <input>
-            </div>
-            <div class="col-sm-12">
-              <label>Correo electrónico</label>
-              <input>
-            </div>
-            <div class="col-sm-12">
-              <label>Región</label>
-              <input disabled value="Región 5">
-            </div>
-          </div>
-          <div class="col-sm-6 contraseña">
-            <div class="col-sm-12">
-              <label>Contraseña actual</label>
-              <input type="password">
-            </div>
-            <div class="col-sm-12">
-              <label type="password">Contraseña nueva</label>
-              <input>
-            </div>
-            <div class="col-sm-12">
-              <label type="password">Confirmar contraseña nueva</label>
-              <input>
-            </div>
-            <div class="col-sm-12">
-              <button class="outline f12">Guardar cambios</button>
+
+      <div class="row">
+
+        <div class="col-xs-12 edit-perfil">
+          <p class="block-titulo">Foto de perfil</p>
+          <div class="block-cuerpo clearfix">
+            <div class="col-sm-4 col-sm-offset-4">
+              <div class="edit-img-perfil" data-toggle="modal" data-target="#foto">
+                <img src="Images/svg/camera.svg">
+                <p>Editar foto de perfil</p>
+              </div>
+              <br>
+              <div class="col-sm-12">
+                <button class="outline f12">Guardar cambios</button>
+              </div>
             </div>
           </div>
+          <p class="block-titulo">Datos de perfil</p>
+          <div class="block-cuerpo clearfix">
+            <div class="col-sm-12 datos">
+
+              <div class="col-sm-6">
+                <label>Alias</label>
+                <input>
+              </div>
+              <div class="col-sm-6">
+                <label>Nombre Completo</label>
+                <input disabled value="<?php echo $nombre; ?>">
+              </div>
+              <div class="col-sm-6">
+                <label>Correo electrónico</label>
+                <input>
+              </div>
+              <div class="col-sm-6">
+                <label>Región</label>
+                <input disabled value="Región 5">
+              </div>
+              <div class="col-sm-6 col-sm-offset-6">
+                <button class="outline f12">Guardar cambios</button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <p class="block-titulo">Contraseña</p>
+          <div class="block-cuerpo clearfix">
+            <div class="col-sm-12 contraseña">
+              <div class="col-sm-6">
+                <label>Contraseña actual</label>
+                <input type="password">
+              </div>
+              <div class="col-sm-6">
+                <label type="password">Contraseña nueva</label>
+                <input>
+              </div>
+              <div class="col-sm-6">
+                <label type="password">Confirmar contraseña nueva</label>
+                <input>
+              </div>
+              <div class="col-sm-6">
+                <button class="outline f12">Guardar cambios</button>
+              </div>
+            </div>
+          </div>
+
+
+
+
         </div>
-        <div class="col-xs-4 edit-perfil">
 
-          <div class="edit-img-perfil" data-toggle="modal" data-target="#foto">
-            <img src="Images/svg/camera.svg">
-            <p>Editar foto de perfil</p>
-          </div>
-          <br>
-          <div class="col-sm-12">
-            <button class="outline f12">Guardar cambios</button>
-          </div>
-
-
-        </div>
       </div>
     </div>
     <div class="footer">

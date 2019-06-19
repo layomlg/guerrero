@@ -79,10 +79,10 @@
               <img src="./Images/svg/search.svg">
               <input>            
             </div>
-            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Home</a></li><li><a href="./proximamente.html">Capacitación</a></li>
+            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Inicio</a></li><li><a href="./proximamente.html">Capacitación</a></li>
             <li><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">Catálogo<span class="caret"></span></a></li>
             <li><a href="favoritos.php?idUsuario=<?php echo $idUsuario; ?>">Favoritos</a></li><li><a >Wishlist</a></li>
-            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Mi carrito</a></li>
+            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Carrito</a></li>
             <li class="cnta"><a>Mi cuenta<span class="caret"></span></a>
               <ul>
                 <li><a href="./editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar Perfil</a></li>
@@ -121,7 +121,7 @@
             <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
               <img class="img-a" src="./Images/svg/home.svg">
               <img class="img-b" src="./Images/svg/home-b.svg">
-              <span class="name"> Home</span>
+              <span class="name"> Inicio</span>
               </a>
             </li>
             <li class="img">
@@ -135,7 +135,7 @@
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
-                <span class="name"> Mi carrito</span>
+                <span class="name"> Carrito</span>
                 <span> (2)</span>
               </a></li>
             <li class="img"

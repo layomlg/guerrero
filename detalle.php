@@ -80,10 +80,10 @@
               <img src="./Images/svg/search.svg">
               <input>            
             </div>
-            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Home</a></li><li><a href="./proximamente.html">Capacitación</a></li>
+            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Inicio</a></li><li><a href="./proximamente.html">Capacitación</a></li>
             <li><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">Catálogo<span class="caret"></span></a></li>
             <li><a href="favoritos.php?idUsuario=<?php echo $idUsuario; ?>">Favoritos</a></li><li><a >Wishlist</a></li>
-            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Mi carrito</a></li>
+            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Carrito</a></li>
             <li class="cnta"><a>Mi cuenta<span class="caret"></span></a>
               <ul>
                 <li><a href="./editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar Perfil</a></li>
@@ -122,7 +122,7 @@
             <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
               <img class="img-a" src="./Images/svg/home.svg">
               <img class="img-b" src="./Images/svg/home-b.svg">
-              <span class="name"> Home</span>
+              <span class="name"> Inicio</span>
               </a>
             </li>
             <li class="img">
@@ -136,7 +136,7 @@
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
-                <span class="name"> Mi carrito</span>
+                <span class="name"> Carrito</span>
                 <span> (2)</span>
               </a></li>
             <li class="img"
@@ -154,7 +154,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -266,7 +266,6 @@
                         </div>
                         <center>
                           <span >
-                            <img  class="canjear" title="Agregar a Wishlist"src="./Images/svg/hearto.svg" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)">
                             <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">Canjear</button>
                           </span>
                         </center>
@@ -296,31 +295,50 @@
                     $txtimg= $txtimg1 . $img . $txtimg2;
                     /*$idcat = $fila['idCategoria'];*/
                   ?>
-                  <div class="col-xs-6 col-sm-4">
+                  <!--                  <div class="col-xs-6 col-sm-4">
 
+<div class="art clearfix">
+<div class="img"><img src="<?= $txtimg;?>"></div>
+<div class="art-desc">
+<a href="detalle.php?idUsuario=<?php echo $idUsuario; ?>&ID=<?php echo $id;?>">
+<p title="<?= $nom;?>"><?= $nom;?></p>
+</a>
+<p class="pts"><?= $pts;?> pts. 
+<span class="canjear">
+<span class="favorito" title="Agregar a Wishlist" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)"></span>
+<span class="canje" title="Agregar a Carrito" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)"></span>
+</span>
+</p>
+</div>
+</div>
+
+</div>-->
+
+                  <div class="col-xs-6 col-sm-4">
                     <div class="art clearfix">
                       <div class="img"><img src="<?= $txtimg;?>"></div>
                       <div class="art-desc">
                         <a href="detalle.php?idUsuario=<?php echo $idUsuario; ?>&ID=<?php echo $id;?>">
                           <p title="<?= $nom;?>"><?= $nom;?></p>
                         </a>
-                        <p class="pts"><?= $pts;?> pts. 
-                          <span class="canjear">
-                            <span class="favorito" title="Agregar a Wishlist" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)"></span>
-                            <span class="canje" title="Agregar a Carrito" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)"></span>
-                          </span>
-                        </p>
+                        <p class="pts"><?= $pts;?> pts.</p>
+                        <!--<button class="outline c canje fav" onclick="addfav(<?php echo $id;?>,<?php echo $idUsuario;?>)"><img title="Agregar a Wishlist"src="./Images/svg/heartf.svg"><span>&nbsp;&nbsp;&nbsp;Agregar a favoritos</span></button>-->
+                        <button class="outline c canje" onclick="agregar(<?php echo $id;?>,<?php echo $idUsuario;?>)">
+                          <img class="img-a" title="Agregar a Carrito"src="./Images/svg/cart.svg">
+                          <img class="img-b" title="Agregar a Carrito"src="./Images/svg/cart-b.svg">
+                          <span>&nbsp;&nbsp;&nbsp;Agregar a carrito</span>
+                        </button>
                       </div>
                     </div>
-
                   </div>
 
                   <?php
                   }
                   ?>
-
-                  <button class="outline c" onclick="location.href='categoria.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
-                  <a id="subcat1"></a>
+                  <div class="col-xs-12">
+                    <button class="outline c" onclick="location.href='categoria.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
+                    <a id="subcat1"></a>
+                  </div>
                 </div>
               </div>
             </div>

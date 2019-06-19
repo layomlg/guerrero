@@ -79,10 +79,10 @@
               <img src="./Images/svg/search.svg">
               <input>            
             </div>
-            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Home</a></li><li><a href="./proximamente.html">Capacitación</a></li>
+            <li><a href="home.php?idUsuario=<?php echo $idUsuario; ?>">Inicio</a></li><li><a href="./proximamente.html">Capacitación</a></li>
             <li><a href="./categoria.php?idUsuario=<?php echo $idUsuario; ?>">Catálogo<span class="caret"></span></a></li>
             <li><a href="favoritos.php?idUsuario=<?php echo $idUsuario; ?>">Favoritos</a></li><li><a >Wishlist</a></li>
-            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Mi carrito</a></li>
+            <li><a href="carrito.php?idUsuario=<?php echo $idUsuario; ?>">Carrito</a></li>
             <li class="cnta"><a>Mi cuenta<span class="caret"></span></a>
               <ul>
                 <li><a href="./editar.php?idUsuario=<?php echo $idUsuario; ?>">Editar Perfil</a></li>
@@ -121,7 +121,7 @@
             <li class="img"><a href="./home.php?idUsuario=<?php echo $idUsuario; ?>">
               <img class="img-a" src="./Images/svg/home.svg">
               <img class="img-b" src="./Images/svg/home-b.svg">
-              <span class="name"> Home</span>
+              <span class="name"> Inicio</span>
               </a>
             </li>
             <li class="img">
@@ -135,7 +135,7 @@
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
-                <span class="name"> Mi carrito</span>
+                <span class="name"> Carrito</span>
                 <span> (2)</span>
               </a></li>
             <li class="img"
@@ -153,7 +153,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -186,6 +186,42 @@
               <p class="tit1 cje">Puntos por canjear en Mi Carrito</p>
               <p class="pts cje"><span>1050</span> pts.</p>
               <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
+            </div>
+            <p class="block-titulo">Premiaciones</p>
+            <div class="block-cuerpo">
+              <div id="promo" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators" style="display:none;">
+                  <li data-target="#promo" data-slide-to="0" class="active"></li>
+                  <li data-target="#promo" data-slide-to="1"></li>
+                  <li data-target="#promo" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="./Images/promo1.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo2.png">
+                  </div>
+
+                  <div class="item">
+                    <img src="./Images/promo3.png">
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#promo" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#promo" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             </div>
             <p class="block-titulo">Categorías</p>
             <div class="block-cuerpo">
@@ -325,42 +361,6 @@
                 </select>
               </form>
             </div>
-            <p class="block-titulo">Premiaciones</p>
-            <div class="block-cuerpo">
-              <div id="promo" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators" style="display:none;">
-                  <li data-target="#promo" data-slide-to="0" class="active"></li>
-                  <li data-target="#promo" data-slide-to="1"></li>
-                  <li data-target="#promo" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="./Images/promo1.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./Images/promo2.png">
-                  </div>
-
-                  <div class="item">
-                    <img src="./Images/promo3.png">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#promo" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#promo" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
           </div>
           <div class=" col-sm-9 clearfix">
             <div class="elemento clearfix">
@@ -375,15 +375,15 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="./Images/carrousel.png" alt="Los Angeles" style="width:100%;">
+                    <img src="./Images/Silk.jpg" alt="Los Angeles" style="width:100%;">
                   </div>
 
                   <div class="item">
-                    <img src="./Images/carrousel.png" alt="Chicago" style="width:100%;">
+                    <img src="./Images/Silk.jpg" alt="Chicago" style="width:100%;">
                   </div>
 
                   <div class="item">
-                    <img src="./Images/carrousel.png" alt="New york" style="width:100%;">
+                    <img src="./Images/Silk.jpg" alt="New york" style="width:100%;">
                   </div>
                 </div>
 

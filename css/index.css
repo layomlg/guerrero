@@ -6405,7 +6405,7 @@ hr.block-separador.cje {
   position: relative;
   display: flex;
   padding: 0px;
-  flex: 1 1 53%;
+  flex: 1 1 59%;
   background: black;
 }
 .promos > .video > video{
@@ -6755,16 +6755,113 @@ button.gris.b-comment:hover {
 
 
 .nav-contenedor.right > ul > li span.indicator{
-    position: absolute;
-    right: 5px;
-    top: 10px;
-    border-radius: 34px;
-    background-color: #F08804;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  border-radius: 34px;
+  background-color: #F08804;
 
-    color: #fff!important;
+  color: #fff!important;
 
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 .pr-20{
   padding-right: 20px!important;
+}
+
+
+div.login-lnv p {
+  color: #2C366E;
+}
+div.login-lnv p > a {
+  color: #2C366E;
+}
+
+.video #video{
+  width: 100%;
+}
+.item video{
+  width: 100%;
+}
+
+.programa2.c1 .c2 img:nth-child(2){
+  display: none;
+}
+.programa2.c1:hover .c2 img:nth-child(1){
+  display: none;
+}
+.programa2.c1:hover .c2 img:nth-child(2){
+  display: inline;
+}
+.pdfviewer{
+  width: 100%;
+  height: 80vh;
+}
+
+#pab-viewer div.modal-dialog {
+  width: 80vw;
+}
+@media (max-width: 768px){
+  #pab-viewer div.modal-dialog {
+    width: calc(100% - 20px);
+    height: auto;
+  }
+}
+#onboarding div.modal-dialog {
+  width: 60vw;
+}
+@media (max-width: 768px){
+  #onboarding div.modal-dialog {
+    width: calc(100% - 20px);
+    height: auto;
+  }
+}
+#publicacion div.modal-dialog {
+  width: 40vw;
+}
+@media (max-width: 768px){
+  #publicacion div.modal-dialog {
+    width: calc(100% - 20px);
+    height: auto;
+  }
+}
+#pab-viewer div.modal-body {
+  width: 100%;
+}
+.edit-perfil {
+  background-color: transparent;
+  padding: 0px 15px;
+}
+.edit-img-perfil {
+  margin: 0px auto;
+  display: block;
+}
+
+.informacion-perfil > p {
+  display: inline-block;
+  width: calc(33% - 1px);
+  margin: 15px 0px;
+  padding: 0px;
+  float: left;
+  text-align: center;
+}
+.informacion-perfil > p:nth-child(1) {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.informacion-perfil > p:nth-child(3) {
+  text-align: center;
+  padding-left: 0px;
+}
+.foto-perfil {
+  top: calc(100% - 70px);
+  left: 10px;
+}
+#video .carousel-control.left, #video .carousel-control.right {
+  height: calc(100% - 80px);
+}
+.sticky{
+  position: fixed;
+  bottom: 50px;
 }
