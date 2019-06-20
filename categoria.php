@@ -200,15 +200,22 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="./Images/promo1.png">
+                    <img src="./Images/premiaciones/p1.png" style="width:100%;">
                   </div>
-
                   <div class="item">
-                    <img src="./Images/promo2.png">
+                    <img src="./Images/premiaciones/p2.png" style="width:100%;">
                   </div>
-
                   <div class="item">
-                    <img src="./Images/promo3.png">
+                    <img src="./Images/premiaciones/p3.png" style="width:100%;">
+                  </div>
+                  <div class="item">
+                    <img src="./Images/premiaciones/p4.png" style="width:100%;">
+                  </div>
+                  <div class="item">
+                    <img src="./Images/premiaciones/p5.png" style="width:100%;">
+                  </div>
+                  <div class="item">
+                    <img src="./Images/premiaciones/p6.png" style="width:100%;">
                   </div>
                 </div>
 
@@ -245,22 +252,11 @@
                   </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria dep">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/deportes.svg">
-                    <p class="tit-cat">Deportes</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
+                      <li><a href=""><p>Accesorios Personales</p></a></li>
+                      <li><a href=""><p>Arreglo Personal</p></a></li>
+                      <li><a href=""><p>Cuidado Personal</p></a></li>
+                      <li><a href=""><p>Joyería</p></a></li>
+                      <li><a href=""><p>Relojes</p></a></li>
                     </ul>
                   </div>
                 </div>
@@ -271,12 +267,137 @@
                   </div>
                   <div class="subcat">
                     <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
+                      <li><a href=""><p>Accesorios para auto</p></a></li>
+                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+                      <li><a href=""><p>Herramientas</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria cer">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/certificados.svg">
+                    <p class="tit-cat">Certificados</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cafés y Bebidas</p></a></li>
+                      <li><a href=""><p>Cine</p></a></li>
+                      <li><a href=""><p>Experiencia</p></a></li>
+                      <li><a href=""><p>iTunes</p></a></li>
+                      <li><a href=""><p>Tiendas Departamentales</p></a></li>
+                      <li><a href=""><p>Tiendas Diversas</p></a></li>                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria dep">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/deportes.svg">
+                    <p class="tit-cat">Deportes</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Aparatos y Artículos de Gimnasio</p></a></li>
+                      <li><a href=""><p>Campismo</p></a></li>
+                      <li><a href=""><p>Ciclismo</p></a></li>
+                      <li><a href=""><p>Futbol</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria hog">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/hogar.svg">
+                    <p class="tit-cat">Hogar</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Artículos Personales</p></a></li>
+                      <li><a href=""><p>Asadores</p></a></li>
+                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+                      <li><a href=""><p>Baterías, Ollas y Sartenes</p></a></li>
+                      <li><a href=""><p>Blancos</p></a></li>
+                      <li><a href=""><p>Cocina</p></a></li>
+                      <li><a href=""><p>Electrodomésticos</p></a></li>
+                      <li><a href=""><p>Herramientas</p></a></li>
+                      <li><a href=""><p>Herramientas y Jardín</p></a></li>
+                      <li><a href=""><p>Hogar</p></a></li>
+                      <li><a href=""><p>Muebles</p></a></li>
+                      <li><a href=""><p>Ventiladores y Calefactores</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria beb">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/bebes.svg">
+                    <p class="tit-cat">Niños y Bebés</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cuidado del Bebé</p></a></li>
                       <li><a href=""><p>sub 2</p></a></li>
                       <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
+                <div class="categoria rec">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/certificados.svg">
+                    <p class="tit-cat">Recargas</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cine</p></a></li>
+                      <li><a href=""><p>Recarga Celular</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria syb">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/salud.svg">
+                    <p class="tit-cat">Salud y Belleza</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Arreglo Personal</p></a></li>
+                      <li><a href=""><p>Cuidado Personal</p></a></li>
+                      <li><a href=""><p>Lociones</p></a></li>
+                      <li><a href=""><p>Perfumes</p></a></li>
+                      <li><a href=""><p>Salud</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria tec">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/tecnologia.svg">
+                    <p class="tit-cat">Tecnología</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Accesorios para tecnología</p></a></li>
+                      <li><a href=""><p>Artículos Personales</p></a></li>
+                      <li><a href=""><p>Audio / Video</p></a></li>
+                      <li><a href=""><p>Car Audio</p></a></li>
+                      <li><a href=""><p>Cómputo</p></a></li>
+                      <li><a href=""><p>Fotografía</p></a></li>
+                      <li><a href=""><p>Relojes</p></a></li>
+                      <li><a href=""><p>Telefonía</p></a></li>
+                      <li><a href=""><p>Videojuegos</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria via">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/viaje.svg">
+                    <p class="tit-cat">Viaje</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Equipaje</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                
+          
+                <!--
                 <div class="categoria cav">
                   <div class="cat-cont">
                     <img src="./Images/nuevas/Cava.svg">
@@ -289,59 +410,10 @@
                       <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
-                </div>
-                <div class="categoria cer">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/certificados.svg">
-                    <p class="tit-cat">Certificados</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria tec">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/tecnologia.svg">
-                    <p class="tit-cat">Tecnología</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria beb">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/bebes.svg">
-                    <p class="tit-cat">Bebés</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria hog">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/hogar.svg">
-                    <p class="tit-cat">Hogar</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
-                    </ul>
-                  </div>
-                </div>
+                </div>-->
+                
+                
+                
               </div>
             </div>
             <p class="block-titulo">Filtros</p>
@@ -353,11 +425,16 @@
                   <option value="f2">3,000 pts - 9,000 pts.</option>
                   <option value="f3">9,000 pts - ??? pts.</option>
                 </select>
-                <label>Puntos</label>
+                <label>Marca</label>
                 <select>
-                  <option value="f4">Marca 1</option>
-                  <option value="f5">Marca 2</option>
-                  <option value="f6">Marca 3</option>
+                  <option >Adata</option>
+                  <option >Beats</option>
+                  <option >Bose</option>
+                  <option >Calvin Klein</option>
+                  <option >Carolina Herrera</option>
+                  <option >Cinépolis</option>
+                  <option >Citizen</option>
+                  <option >Conair</option>
                 </select>
               </form>
             </div>

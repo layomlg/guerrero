@@ -177,6 +177,7 @@
           <div class="col-sm-12 cen clearfix">
             <div class="promos">
               <div class="video">
+                <p class="block-titulo">Video</p>
                 <div id="video" class="carousel slide" data-ride="carousel" data-interval="false">
                   <!-- Indicators -->
                   <ol class="carousel-indicators" style="display:none;">
@@ -215,7 +216,7 @@
                 </div>
               </div>
               <div class="promo">
-                <!--<p class="block-titulo">Retos y noticias</p>-->
+                <p class="block-titulo">Retos-Noticias</p>
                 <div id="retos" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators" style="display:none;">
@@ -795,9 +796,9 @@
                     <button type="button" class="outline"><i class="fa fa-download"></i>Ver PAB</button>
                   </a>
                   <br>
-                  <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
-                    <button type="button" class="outline"><i class="fa fa-download"></i>PDF Convivencia</button>
-                  </a>
+                  <!--<a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
+<button type="button" class="outline"><i class="fa fa-download"></i>PDF Convivencia</button>
+</a>-->
 
                 </div>
               </div>
@@ -971,7 +972,7 @@
 
             <div class="block-cuerpo">
               <video controls="true">
-                <source src="./video/Shots.mp4" type="video/mp4">
+                <source src="./video/GuerreroBook.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
             </div>

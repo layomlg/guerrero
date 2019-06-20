@@ -522,9 +522,9 @@
                   <button type="button" class="outline"><i class="fa fa-download"></i>Ver PAB</button>
                 </a>
                 <br>
-                <a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
+                <!--<a href="https://www.cubica.mx/guerrerobook2018/assets/pdf/Estrategia_promocional_Marzo_2018_SILK.pdf" id="Left_utt2" target="new">
                   <button type="button" class="outline"><i class="fa fa-download"></i>PDF Convivencia</button>
-                </a>
+                </a>-->
 
               </div>
             </div>

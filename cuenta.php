@@ -160,7 +160,7 @@
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
           <span> (2)</span>
         </button>
@@ -180,272 +180,222 @@
     <div class="contenedor">
       <div class="elemento">
         <div class="row">
-          <!--<div class="col-sm-3 izq clearfix">
-<p class="block-titulo">Estado de cuenta</p>
-<div class="block-cuerpo">
-<p>Metas</p>
-<p>&nbsp;-Sell Out<span>150</span></p>
-<p>&nbsp;-Cobertura <span>250</span></p>
-<p>&nbsp;-Ejecución <span>350</span></p>
-<p>&nbsp;-OTS <span>450</span></p>
-<br>
-<p>Logros</p>
-<p>&nbsp;-Sell Out<span>150</span></p>
-<p>&nbsp;-Cobertura <span>250</span></p>
-<p>&nbsp;-Ejecución <span>350</span></p>
-<p>&nbsp;-OTS <span>450</span></p>
-<p>Total <span>2400</span></p>
-<hr class="block-separador">
-<p class="tit1">Puntos Disponibles</p>
-<p class="pts">1050 pts.</p>
-<button class="outline c" onclick="location.href='cuenta.php?idUsuario=<?php echo $idUsuario; ?>';">Ver más</button>
-</div>
-<p class="block-titulo">Explorar</p>
-<div class="block-cuerpo">
-<a href="destacadas.php?idUsuario=<?php echo $idUsuario; ?>">Publicaciones destacadas</a>
-</div>
-
-</div>-->
-          <div class="col-sm-12 der clearfix">
+          <div class="col-sm-3 izq clearfix">
+            <p class="block-titulo">Estado de cuenta</p>
             <div class="block-cuerpo">
-              <p class="tit">Estado de cuenta</p>
-              <table class="resume-orden">
-                <thead>
-                  <tr>
-                    <th class="">Mes</th>
-                    <th class="">Enero</th>
-                    <th class="">Febrero</th>
-                    <th class="">Marzo</th>
-                    <th class="">Abril</th>
-                    <th class="">Mayo</th>
-                    <th class="">Junio</th>
-                    <th class="">Julio</th>
-                    <th class="">Agosto</th>
-                    <th class="">Septiempre</th>
-                    <th class="">Octubre</th>
-                    <th class="">Noviembre</th>
-                    <th class="">Diciembre</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="">Metas-Sell Out</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-                  <tr>
-                    <td class="">Metas-Cobertura</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-                  <tr>
-                    <td class="">Metas-Ejecución</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-                  <tr>
-                    <td class="">Metas-OTS</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-                  <tr>
-                    <td class="">Logros-Sell Out</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-
-                  <tr>
-                    <td class="">Logros-Cobertura</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-
-                  <tr>
-                    <td class="">Logros-Ejecución</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-
-                  <tr>
-                    <td class="">Logros-OTS</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-
-                  <tr>
-                    <td class="">TOTAL</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                    <td class="">0</td>
-                  </tr>
-                </tbody>
-              </table>
+              <p class="tit1">Puntos Disponibles</p>
+              <p class="pts disp"><span>1050</span> pts.</p>
+              <hr class="block-separador cje">
+              <p class="tit1 cje">Puntos por canjear en Mi Carrito</p>
+              <p class="pts cje"><span>1050</span> pts.</p>
+              <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
+            <p class="block-titulo">Categorías</p>
             <div class="block-cuerpo">
-              <p class="tit">Histórico de canjes</p>
-              <div class="row">
-                <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+              <!--<form>
+<div class="radio">
+<label><input type="radio" name="cat">Temporalidad</label>
+</div>
+<div class="radio">
+<label><input type="radio" name="cat">Tendencias</label>
+</div>
+<div class="radio">
+<label><input type="radio" name="cat">Personal</label>
+</div>
+</form>-->
+
+              <div class="block-categorias">
+                <div class="categoria art">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/art-personales.svg">
+                    <p class="tit-cat">Artículos Personales</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Accesorios Personales</p></a></li>
+                      <li><a href=""><p>Arreglo Personal</p></a></li>
+                      <li><a href=""><p>Cuidado Personal</p></a></li>
+                      <li><a href=""><p>Joyería</p></a></li>
+                      <li><a href=""><p>Relojes</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria aut">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/autos.svg">
+                    <p class="tit-cat">Autos</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Accesorios para auto</p></a></li>
+                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+                      <li><a href=""><p>Herramientas</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria cer">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/certificados.svg">
+                    <p class="tit-cat">Certificados</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cafés y Bebidas</p></a></li>
+                      <li><a href=""><p>Cine</p></a></li>
+                      <li><a href=""><p>Experiencia</p></a></li>
+                      <li><a href=""><p>iTunes</p></a></li>
+                      <li><a href=""><p>Tiendas Departamentales</p></a></li>
+                      <li><a href=""><p>Tiendas Diversas</p></a></li>                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria dep">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/deportes.svg">
+                    <p class="tit-cat">Deportes</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Aparatos y Artículos de Gimnasio</p></a></li>
+                      <li><a href=""><p>Campismo</p></a></li>
+                      <li><a href=""><p>Ciclismo</p></a></li>
+                      <li><a href=""><p>Futbol</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria hog">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/hogar.svg">
+                    <p class="tit-cat">Hogar</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Artículos Personales</p></a></li>
+                      <li><a href=""><p>Asadores</p></a></li>
+                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+                      <li><a href=""><p>Baterías, Ollas y Sartenes</p></a></li>
+                      <li><a href=""><p>Blancos</p></a></li>
+                      <li><a href=""><p>Cocina</p></a></li>
+                      <li><a href=""><p>Electrodomésticos</p></a></li>
+                      <li><a href=""><p>Herramientas</p></a></li>
+                      <li><a href=""><p>Herramientas y Jardín</p></a></li>
+                      <li><a href=""><p>Hogar</p></a></li>
+                      <li><a href=""><p>Muebles</p></a></li>
+                      <li><a href=""><p>Ventiladores y Calefactores</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria beb">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/bebes.svg">
+                    <p class="tit-cat">Niños y Bebés</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cuidado del Bebé</p></a></li>
+                      <li><a href=""><p>sub 2</p></a></li>
+                      <li><a href=""><p>sub 3</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria rec">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/certificados.svg">
+                    <p class="tit-cat">Recargas</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Cine</p></a></li>
+                      <li><a href=""><p>Recarga Celular</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria syb">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/salud.svg">
+                    <p class="tit-cat">Salud y Belleza</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Arreglo Personal</p></a></li>
+                      <li><a href=""><p>Cuidado Personal</p></a></li>
+                      <li><a href=""><p>Lociones</p></a></li>
+                      <li><a href=""><p>Perfumes</p></a></li>
+                      <li><a href=""><p>Salud</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria tec">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/tecnologia.svg">
+                    <p class="tit-cat">Tecnología</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Accesorios para tecnología</p></a></li>
+                      <li><a href=""><p>Artículos Personales</p></a></li>
+                      <li><a href=""><p>Audio / Video</p></a></li>
+                      <li><a href=""><p>Car Audio</p></a></li>
+                      <li><a href=""><p>Cómputo</p></a></li>
+                      <li><a href=""><p>Fotografía</p></a></li>
+                      <li><a href=""><p>Relojes</p></a></li>
+                      <li><a href=""><p>Telefonía</p></a></li>
+                      <li><a href=""><p>Videojuegos</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoria via">
+                  <div class="cat-cont">
+                    <img src="./Images/nuevas/viaje.svg">
+                    <p class="tit-cat">Viaje</p>
+                  </div>
+                  <div class="subcat">
+                    <ul>
+                      <li><a href=""><p>Equipaje</p></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!--
+<div class="categoria cav">
+<div class="cat-cont">
+<img src="./Images/nuevas/Cava.svg">
+<p class="tit-cat">Cava</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>sub 1</p></a></li>
+<li><a href=""><p>sub 2</p></a></li>
+<li><a href=""><p>sub 3</p></a></li>
+</ul>
+</div>
+</div>-->
+
+
+
               </div>
             </div>
+            <ul class="listaguion grupos">
+              <li><a data-toggle="modal" data-target="#grupo" ><img src="./Images/nuevas/grupos.svg" alt="crear grupos">Crear Grupo</a></li>
+              <li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>              
+            </ul>
+          </div>
+
+          <div class="col-sm-9 der clearfix">
+            <div class="block-cuerpo">
+              <p class="tit">Estado de cuenta</p>
+              <div id="ContentPlaceHolder1_gvEdoCtaHistorial"><div class="table-responsive"><table class="resume-orden"><thead><tr><th class="can-orden">Mes</th><th class="can-orden">Batallas</th><th class="can-orden">Otros</th><th class="can-orden">Bolsa Guerrera</th><th class="can-orden">Total</th></tr></thead><tbody class="det"><tr><td class="can-orden">Enero</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Febrero</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Marzo</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Abril</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Mayo</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Junio</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Julio</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Asto</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Septiembre</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Octubre</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Noviembre</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Diciembre</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr><tr><td class="can-orden">Acumulado</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td><td class="can-orden"> 0</td></tr></tbody></table></div></div>
+            </div>
+
+            <div class="block-cuerpo">
+              <div class="row">
+                <div id="containerGrafica" style="min-width: 310px; height: 400px; margin: 0px auto; overflow: hidden;" data-highcharts-chart="0"><div id="highcharts-syc0ykk-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 800px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400"><desc>Created with Highcharts 7.1.2</desc><defs><clipPath id="highcharts-syc0ykk-1-"><rect x="0" y="0" width="733" height="249" fill="none"></rect></clipPath></defs><rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="800" height="400" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="57" y="41" width="733" height="249"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 117.5 41 L 117.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 178.5 41 L 178.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 239.5 41 L 239.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 300.5 41 L 300.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 361.5 41 L 361.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 423.5 41 L 423.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 484.5 41 L 484.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 545.5 41 L 545.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 606.5 41 L 606.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 667.5 41 L 667.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 728.5 41 L 728.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 789.5 41 L 789.5 290" opacity="1"></path><path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 56.5 41 L 56.5 290" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="#e6e6e6" stroke-width="1" data-z-index="1" class="highcharts-grid-line" d="M 57 166.5 L 790 166.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" x="57" y="41" width="733" height="249"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" data-z-index="7" d="M 57 290.5 L 790 290.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><text x="25.828125" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 25.828125 165.5)" class="highcharts-axis-title" style="color:#666666;fill:#666666;" y="165.5"><tspan>Puntos</tspan></text><path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 57 41 L 57 290"></path></g><g class="highcharts-series-group" data-z-index="3"><g data-z-index="0.1" class="highcharts-series highcharts-series-0 highcharts-line-series highcharts-color-0     " transform="translate(57,41) scale(1 1)" clip-path="url(#highcharts-syc0ykk-1-)"><path fill="none" d="M 30.541666666667 124.5 L 91.625 124.5 L 152.70833333333 124.5 L 213.79166666667 124.5 L 274.875 124.5 L 335.95833333333 124.5 L 397.04166666667 124.5 L 458.125 124.5 L 519.20833333333 124.5 L 580.29166666667 124.5 L 641.375 124.5 L 702.45833333333 124.5" class="highcharts-graph" data-z-index="1" stroke="#447ed9" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 20.541666666667 124.5 L 30.541666666667 124.5 L 91.625 124.5 L 152.70833333333 124.5 L 213.79166666667 124.5 L 274.875 124.5 L 335.95833333333 124.5 L 397.04166666667 124.5 L 458.125 124.5 L 519.20833333333 124.5 L 580.29166666667 124.5 L 641.375 124.5 L 702.45833333333 124.5 L 712.45833333333 124.5" visibility="visible" data-z-index="2" class="highcharts-tracker-line" stroke-linejoin="round" stroke="rgba(192,192,192,0.0001)" stroke-width="22"></path></g><g data-z-index="0.1" class="highcharts-markers highcharts-series-0 highcharts-line-series highcharts-color-0  highcharts-tracker    " transform="translate(57,41) scale(1 1)"><path fill="#447ed9" visibility="hidden" d="M 335 124.5 A 0 0 0 1 1 335 124.5 Z" class="highcharts-halo highcharts-color-0" data-z-index="-1" fill-opacity="0.25"></path><path fill="#447ed9" d="M 30 129 A 4 4 0 1 1 30.003999999333335 128.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#447ed9" d="M 91 128.5 A 4 4 0 1 1 91.00399999933333 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0  " stroke-width="0.0031943447399958025"></path><path fill="#447ed9" d="M 152 128.5 A 4 4 0 1 1 152.00399999933333 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0  " stroke-width="0.000009869571931497845"></path><path fill="#447ed9" d="M 213 128.5 A 4 4 0 1 1 213.00399999933333 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0  " stroke-width="0.0014205498696930885"></path><path fill="#447ed9" d="M 274 128.5 A 4 4 0 1 1 274.00399999933336 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0    " stroke-width="0.002849604801500538"></path><path fill="#447ed9" d="M 335 128.5 A 4 4 0 1 1 335.00399999933336 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0    " stroke-width="0.002219017698460002"></path><path fill="#447ed9" d="M 397 128.5 A 4 4 0 1 1 397.00399999933336 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0   " stroke-width="0.0015349798912442925"></path><path fill="#447ed9" d="M 458 128.5 A 4 4 0 1 1 458.00399999933336 128.49999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0 " stroke-width="0.000009869571931497845"></path><path fill="#447ed9" d="M 519 129 A 4 4 0 1 1 519.0039999993334 128.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#447ed9" d="M 580 129 A 4 4 0 1 1 580.0039999993334 128.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#447ed9" d="M 641 129 A 4 4 0 1 1 641.0039999993334 128.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path><path fill="#447ed9" d="M 702 129 A 4 4 0 1 1 702.0039999993334 128.99999800000018 Z" opacity="1" class="highcharts-point highcharts-color-0"></path></g></g><g class="highcharts-exporting-group" data-z-index="3"><g class="highcharts-button highcharts-contextbutton" stroke-linecap="round" transform="translate(766,10)"><title>Chart context menu</title><rect fill="#ffffff" class="highcharts-button-box" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none" stroke-width="1"></rect><path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5" class="highcharts-button-symbol" data-z-index="1" stroke="#666666" stroke-width="3" style="display: none;"></path><text x="0" data-z-index="1" style="font-weight:normal;color:#333333;cursor:pointer;fill:#333333;" y="12"></text></g></g><text x="400" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color:#333333;font-size:18px;fill:#333333;" y="24"></text><text x="400" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color:#666666;fill:#666666;" y="24"><tspan>Evolución de tu obtención de puntos</tspan></text><g data-z-index="6" class="highcharts-data-labels highcharts-series-0 highcharts-line-series highcharts-color-0     " transform="translate(57,41) scale(1 1)" opacity="1"><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(22,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(84,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(145,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(206,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(267,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(328,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(389,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(450,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(511,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(572,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(633,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g><g class="highcharts-label highcharts-data-label highcharts-data-label-color-0" data-z-index="1" transform="translate(694,100)"><text x="5" data-z-index="1" style="font-size:11px;font-weight:bold;color:#000000;fill:#000000;" y="16"><tspan x="5" y="16" class="highcharts-text-outline" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2px" stroke-linejoin="round">0</tspan><tspan x="5" y="16">0</tspan></text></g></g><g class="highcharts-legend" data-z-index="7" transform="translate(339,360)"><rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="121" height="25" visibility="visible"></rect><g data-z-index="1"><g><g class="highcharts-legend-item highcharts-line-series highcharts-color-0 highcharts-series-0" data-z-index="1" transform="translate(8,3)"><path fill="none" d="M 0 11 L 16 11" class="highcharts-graph" stroke="#447ed9" stroke-width="2"></path><path fill="#447ed9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z" class="highcharts-point" opacity="1"></path><text x="21" style="color:#333333;cursor:pointer;font-size:12px;font-weight:bold;fill:#333333;" text-anchor="start" data-z-index="2" y="15"><tspan>Total de puntos</tspan></text></g></g></g></g><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"><text x="90.134391531014" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 90.134391531014 306)" y="306" opacity="1">Enero</text><text x="151.21772486435404" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 151.21772486435404 306)" y="306" opacity="1">Febrero</text><text x="212.30105819768403" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 212.30105819768403 306)" y="306" opacity="1">Marzo</text><text x="273.384391531014" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 273.384391531014 306)" y="306" opacity="1">Abril</text><text x="334.46772486435395" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 334.46772486435395 306)" y="306" opacity="1">Mayo</text><text x="395.551058197684" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 395.551058197684 306)" y="306" opacity="1">Junio</text><text x="456.634391531014" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 456.634391531014 306)" y="306" opacity="1">Julio</text><text x="517.7177248643541" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 517.7177248643541 306)" y="306" opacity="1">Asto</text><text x="578.801058197684" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 578.801058197684 306)" y="306" opacity="1">Septiembre</text><text x="639.884391531014" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 639.884391531014 306)" y="306" opacity="1">Octubre</text><text x="700.9677248643541" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 700.9677248643541 306)" y="306" opacity="1">Noviembre</text><text x="762.051058197684" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0) rotate(-45 762.051058197684 306)" y="306" opacity="1">Diciembre</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="42" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="end" transform="translate(0,0)" y="169" opacity="1">0</text></g><text x="790" class="highcharts-credits" text-anchor="end" data-z-index="8" style="cursor: pointer; color: rgb(153, 153, 153); font-size: 9px; fill: rgb(153, 153, 153); display: none;" y="395">Highcharts.com</text><g class="highcharts-label highcharts-tooltip                  highcharts-color-0" style="pointer-events:none;white-space:nowrap;" data-z-index="8" transform="translate(332,-9999)" opacity="0" visibility="visible"><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 119.5 0.5 C 122.5 0.5 122.5 0.5 122.5 3.5 L 122.5 41.5 C 122.5 44.5 122.5 44.5 119.5 44.5 L 66.5 44.5 60.5 50.5 54.5 44.5 3.5 44.5 C 0.5 44.5 0.5 44.5 0.5 41.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 119.5 0.5 C 122.5 0.5 122.5 0.5 122.5 3.5 L 122.5 41.5 C 122.5 44.5 122.5 44.5 119.5 44.5 L 66.5 44.5 60.5 50.5 54.5 44.5 3.5 44.5 C 0.5 44.5 0.5 44.5 0.5 41.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></path><path fill="none" class="highcharts-label-box highcharts-tooltip-box highcharts-shadow" d="M 3.5 0.5 L 119.5 0.5 C 122.5 0.5 122.5 0.5 122.5 3.5 L 122.5 41.5 C 122.5 44.5 122.5 44.5 119.5 44.5 L 66.5 44.5 60.5 50.5 54.5 44.5 3.5 44.5 C 0.5 44.5 0.5 44.5 0.5 41.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#000000" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></path><path fill="rgba(247,247,247,0.85)" class="highcharts-label-box highcharts-tooltip-box" d="M 3.5 0.5 L 119.5 0.5 C 122.5 0.5 122.5 0.5 122.5 3.5 L 122.5 41.5 C 122.5 44.5 122.5 44.5 119.5 44.5 L 66.5 44.5 60.5 50.5 54.5 44.5 3.5 44.5 C 0.5 44.5 0.5 44.5 0.5 41.5 L 0.5 3.5 C 0.5 0.5 0.5 0.5 3.5 0.5" stroke="#447ed9" stroke-width="1"></path><text x="8" data-z-index="1" style="font-size:12px;color:#333333;cursor:default;fill:#333333;" y="20"><tspan style="font-size: 10px">Junio</tspan><tspan style="fill:#447ed9" x="8" dy="15">●</tspan><tspan dx="0"> Total de puntos: </tspan><tspan style="font-weight:bold" dx="0">0</tspan></text></g></svg></div></div>
+              </div>
+            </div>
+
             <div class="block-cuerpo">
               <p class="tit">Histórico de canjes</p>
-              <table class="det">
-                <thead class="det">
-                  <tr>
-                    <th class="nom-orden">Nombre del producto</th>
-                    <th class="can-orden">Cantidad</th>
-                    <th class="fol-orden">ID Canje</th>
-                    <th class="num-orden">Guía #</th>
-                    <th class="ref-orden">Fecha de Canje</th>
-                    <th class="ref-orden">Estatus</th>
-                  </tr>
-                </thead>
-                <tbody class="det">
-                  <tr>
-                    <td class="nom-orden">
-                      <div class="producto">
-                        <img src="Images/art/MLG18519.png" onclick="location.href='detalle-historico.php?idUsuario=<?php echo $idUsuario; ?>';">
-                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                        <p>980-001073</p>
-                        <p>negro</p>
-                        <br>
-                        <p>código: MLG18519</p>
-                        <p>7,500 pts.</p>
-                      </div>
-                    </td>
-                    <td class="can-orden">1</td>
-                    <td class="fol-orden">1541453</td>
-                    <td class="num-orden">24198326</td>
-                    <td class="ref-orden">22-01-16</td>
-                    <td class="ref-orden">EN PROCESO</td>
-                  </tr>
-                  <tr>
-                    <td class="nom-orden">
-                      <div class="producto">
-                        <img src="Images/art/MLG18519.png" onclick="location.href='detalle-historico.php?idUsuario=<?php echo $idUsuario; ?>';">
-                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                        <p>980-001073</p>
-                        <p>negro</p>
-                        <br>
-                        <p>código: MLG18519</p>
-                        <p>7,500 pts.</p>
-                      </div>
-                    </td>
-                    <td class="can-orden">1</td>
-                    <td class="fol-orden">1541453</td>
-                    <td class="num-orden">24198326</td>
-                    <td class="ref-orden">22-01-16</td>
-                    <td class="ref-orden">EN PROCESO</td>
-                  </tr>
-                  <tr>
-                    <td class="nom-orden">
-                      <div class="producto">
-                        <img src="Images/art/MLG18519.png" onclick="location.href='detalle-historico.php?idUsuario=<?php echo $idUsuario; ?>';">
-                        <p class="nom">Soundlink Revolve BT - Black. Bose&reg;</p>
-                        <p>980-001073</p>
-                        <p>negro</p>
-                        <br>
-                        <p>código: MLG18519</p>
-                        <p>7,500 pts.</p>
-                      </div>
-                    </td>
-                    <td class="can-orden">1</td>
-                    <td class="fol-orden">1541453</td>
-                    <td class="num-orden">24198326</td>
-                    <td class="ref-orden">22-01-16</td>
-                    <td class="ref-orden">EN PROCESO</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div id="ContentPlaceHolder1_gvHistoricoCanjes"><table class="det"><thead class="det'"><tr><th class="nom-orden">Nombre del producto</th><th class="can-orden">Cantidad</th><th class="fol-orden">Folio</th><th class="num-orden">Orden #</th><th class="ref-orden">Referencia</th></tr></thead><tbody class="det"></tbody></table></div>
             </div>
 
           </div>
@@ -534,7 +484,7 @@
         $(".banner").css("height",hi);
       }
 
-
+      /*
       $("table.resume-orden > tbody > tr > td:not('td:first-child')").each(function(){
         x = Math.trunc(Math.random() * 100);
         $(this).text(x);
@@ -545,7 +495,7 @@
         else if ($(this).html() > 60){}
         else if ($(this).html() > 30){$(this).addClass("t-yellow");}
         else {$(this).addClass("t-red");}
-      });
+      });*/
     </script>
     <script src="js/puntos.js"></script>
 

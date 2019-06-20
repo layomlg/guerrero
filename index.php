@@ -70,7 +70,8 @@
               <p>Contraseña</p>
               <input type="password" placeholder="Contraseña">
               <p class="r"><a data-toggle="modal" data-target="#contrasenia">Olvidé mi contraseña</a></p>
-              <input id="entrar" type="button" value="Ingresar" onclick="location.href='./dashboard.php'">
+              <!--<input id="entrar" type="button" value="Ingresar" onclick="location.href='./dashboard.php'">-->
+              <input id="entrar" type="button" value="Ingresar" onclick="location.href='./home.php?idUsuario=2'">
             </div>
           </div>
         </div>
@@ -85,16 +86,13 @@
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <p>Recuperación de Contraseña</p>
-            <p class="subtitulo">Ingresa tu correo electrónico para reestablecer tu contraseña</p>
+            <p class="subtitulo">Ingresa tu usuario y correo electrónico para reestablecer tu contraseña</p>
 
+            <label>Usuario</label>
+            <input type="text">
             <label>Correo electrónico</label>
             <input type="email">
             <button class="outline c">Enviar</button>
-            <hr>
-            <p>Si requieres ayuda de nuestros operadores, marca:</p>
-            <a href="tel:5512502310">(55) 1250 2310</a>
-            <a href="tel:018008225970">01 800 822 5970</a>
-
 
           </div>
         </div>

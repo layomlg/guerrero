@@ -32,6 +32,7 @@ $("#btn-s").click(function(){
 $("#btn-s1").click(function(){
   $("div.search-contenedor").toggle("fast");
 });
+/*
 $(".mnu-cuenta").hover(function(){
   $("div.carrito-contenedor").show("fast");
 });
@@ -41,6 +42,7 @@ $("div.carrito-contenedor").mouseleave(function(){
 $("div.header").mouseleave(function(){
   $("div.carrito-contenedor").hide("fast");
 });
+*/
 $(".btn-carrito").click(function(){
   $("div.carrito-contenedor").toggle("fast");
 });
