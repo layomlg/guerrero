@@ -40,7 +40,7 @@
     $aleatorio = rand(-2000,2000);
     $puntosrand = $puntosOferta - $aleatorio;
 
-    $resultado2 = $mysqli->query("SELECT * FROM productos where  puntos > '".$puntosrand."' ORDER BY puntos LIMIT 1;");
+    $resultado2 = $mysqli->query("SELECT * FROM productos where puntos > '".$puntosrand."' AND Categoria_idCategoria = 10 ORDER BY puntos LIMIT 1;");
     $fila2 = $resultado2->fetch_array();
 
     $id = $fila2['idProductos'];
@@ -66,7 +66,7 @@
           <span class="tit"><img src="./Images/svg/menu.svg"></span>
         </button>
         <div class="nav-brand">
-          <img class="logo1" src="./Images/logo.svg" onclick="location.href='dashboard.php?idUsuario=<?php echo $idUsuario; ?>';">
+          <img class="logo1" src="./Images/logo.svg" onclick="location.href='home.php?idUsuario=<?php echo $idUsuario; ?>';">
         </div>
         <div class="buscador">
           <img src="./Images/svg/search.svg">
@@ -159,11 +159,11 @@
           <span class="indicator">3</span>
         </button>
 
-        <div class="search-contenedor">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="search-contenedor"><p>Guerre@ ya se encuentran disponibles tus puntos de junio en tu estado de cuenta</p><p>¡Tienes hasta el próximo 15 de julio para realizar tus canjes de este periodo!</p><p>Del 20 al 25 de julio, ¡tus puntos valen el doble!</p><p>Sube una foto de tu teatralización con la prioridad 1 del periodo antes del 30 de julio y gana un ¡Kit Guerrrero!</p>
+
+
+
+
         </div>
 
       </nav>
@@ -202,11 +202,11 @@
                     </div>
 
                     <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#video" data-slide="prev">
+                    <a class="left carousel-control" href="#video" data-slide="prev" onclick="$('#video video').trigger('pause');">
                       <span class="glyphicon glyphicon-chevron-left"></span>
                       <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#video" data-slide="next">
+                    <a class="right carousel-control" href="#video" data-slide="next" onclick="$('#video video').trigger('pause');">
                       <span class="glyphicon glyphicon-chevron-right"></span>
                       <span class="sr-only">Next</span>
                     </a>
@@ -228,15 +228,14 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <a href="retos.php"><img src="./Images/danone-promo.png"></a>
+                      <a href="retos.php"><img src="./Images/SIL1.png"></a>
+                    </div>
+                    <div class="item">
+                      <a href="retos.php"><img src="./Images/SILK2.png"></a>
                     </div>
 
                     <div class="item">
-                      <a href="retos.php"><img src="./Images/danone-promo.png"></a>
-                    </div>
-
-                    <div class="item">
-                      <a href="retos.php"><img src="./Images/danone-promo.png"></a>
+                      <a href="retos.php"><img src="./Images/RETO.png"></a>
                     </div>
                   </div>
 
@@ -904,7 +903,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook <span><a>Términos y Condiciones</a><span class="separador"></span><a href="./reglas.php">Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>
@@ -960,14 +959,14 @@
       </div>
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="onboarding" role="dialog">
+    <div class="modal fade" id="onboarding" role="dialog" onclick="$('#onboarding video').trigger('pause');">
       <div class="modal-dialog">
 
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-body">
             <div class="clearfix">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <button type="button" class="close" data-dismiss="modal" onclick="$('#onboarding video').trigger('pause');">&times;</button>
             </div>
 
             <div class="block-cuerpo">

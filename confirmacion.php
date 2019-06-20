@@ -39,7 +39,7 @@
     $aleatorio = rand(-2000,2000);
     $puntosrand = $puntosOferta - $aleatorio;
 
-    $resultado2 = $mysqli->query("SELECT * FROM productos where  puntos > '".$puntosrand."' ORDER BY puntos LIMIT 1;");
+    $resultado2 = $mysqli->query("SELECT * FROM productos where puntos > '".$puntosrand."' AND Categoria_idCategoria = 10 ORDER BY puntos LIMIT 1;");
     $fila2 = $resultado2->fetch_array();
 
     $id = $fila2['idProductos'];
@@ -65,7 +65,7 @@
           <span class="tit"><img src="./Images/svg/menu.svg"></span>
         </button>
         <div class="nav-brand">
-          <img class="logo1" src="./Images/logo.svg" onclick="location.href='dashboard.php?idUsuario=<?php echo $idUsuario; ?>';">
+          <img class="logo1" src="./Images/logo.svg" onclick="location.href='home.php?idUsuario=<?php echo $idUsuario; ?>';">
         </div>
         <div class="buscador">
           <img src="./Images/svg/search.svg">
@@ -95,7 +95,7 @@
           <ul class="">
 
 
-            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre; ?>  </span></a></p>
+            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre;?></span></a></p>
 
               <!--------------CAMBIO ------------------------>
 
@@ -131,12 +131,12 @@
                 <span class="name"> Catálogo</span>
               </a>
             </li>
-            <li class="img">
+            <li class="img pr-20">
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
                 <span class="name"> Carrito</span>
-                <span> (2)</span>
+                <span class="indicator">3</span>
               </a></li>
             <li class="img"
                 ><a href="./proximamente.html">
@@ -145,24 +145,24 @@
               <span class="name"> E-learning</span>
               </a>
             </li>
-            <li class="img" id="btn-s1">
+            <li class="img pr-20" id="btn-s1">
               <img class="img-a" src="./Images/svg/bell.svg">
               <img class="img-b" src="./Images/svg/bell-b.svg">
-              <span> (3)</span>
+              <span class="indicator">3</span>
             </li>
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
-          <span> (2)</span>
+          <span class="indicator">3</span>
         </button>
 
-        <div class="search-contenedor">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="search-contenedor"><p>Guerre@ ya se encuentran disponibles tus puntos de junio en tu estado de cuenta</p><p>¡Tienes hasta el próximo 15 de julio para realizar tus canjes de este periodo!</p><p>Del 20 al 25 de julio, ¡tus puntos valen el doble!</p><p>Sube una foto de tu teatralización con la prioridad 1 del periodo antes del 30 de julio y gana un ¡Kit Guerrrero!</p>
+          
+          
+          
+          
         </div>
 
       </nav>
@@ -288,7 +288,7 @@
       <div class="f2">
         <div class="contenido">
           <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+            <p>Todos los derechos reservados. Guerrerobook  <span><a>Términos y Condiciones</a><span class="separador"></span><a href="./reglas.php">Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
           </div>
         </div>
       </div>

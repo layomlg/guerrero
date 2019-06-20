@@ -39,7 +39,7 @@
     $aleatorio = rand(-2000,2000);
     $puntosrand = $puntosOferta - $aleatorio;
 
-    $resultado2 = $mysqli->query("SELECT * FROM productos where  puntos > '".$puntosrand."' ORDER BY puntos LIMIT 1;");
+    $resultado2 = $mysqli->query("SELECT * FROM productos where puntos > '".$puntosrand."' AND Categoria_idCategoria = 10 ORDER BY puntos LIMIT 1;");
     $fila2 = $resultado2->fetch_array();
 
     $id = $fila2['idProductos'];
@@ -65,7 +65,7 @@
           <span class="tit"><img src="./Images/svg/menu.svg"></span>
         </button>
         <div class="nav-brand">
-          <img class="logo1" src="./Images/logo.svg" onclick="location.href='dashboard.php?idUsuario=<?php echo $idUsuario; ?>';">
+          <img class="logo1" src="./Images/logo.svg" onclick="location.href='home.php?idUsuario=<?php echo $idUsuario; ?>';">
         </div>
         <div class="buscador">
           <img src="./Images/svg/search.svg">
@@ -95,7 +95,7 @@
           <ul class="">
 
 
-            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre; ?>  </span></a></p>
+            <li class="img mnu-cuenta"><p><a href="./perfil.php"><img class="user" src="./Images/user-perfil.png"><span> <?php echo $nombre;?></span></a></p>
 
               <!--------------CAMBIO ------------------------>
 
@@ -131,12 +131,12 @@
                 <span class="name"> Catálogo</span>
               </a>
             </li>
-            <li class="img">
+            <li class="img pr-20">
               <a href="./carrito.php?idUsuario=<?php echo $idUsuario; ?>">
                 <img class="img-a" src="./Images/svg/cart.svg">
                 <img class="img-b" src="./Images/svg/cart-b.svg">
                 <span class="name"> Carrito</span>
-                <span> (2)</span>
+                <span class="indicator">3</span>
               </a></li>
             <li class="img"
                 ><a href="./proximamente.html">
@@ -145,24 +145,24 @@
               <span class="name"> E-learning</span>
               </a>
             </li>
-            <li class="img" id="btn-s1">
+            <li class="img pr-20" id="btn-s1">
               <img class="img-a" src="./Images/svg/bell.svg">
               <img class="img-b" src="./Images/svg/bell-b.svg">
-              <span> (3)</span>
+              <span class="indicator">3</span>
             </li>
           </ul>
         </div>
         <button id="btn-s" class="btn-search">
-           
+
           <img class="img-" src="./Images/svg/Bell.svg">
-          <span> (2)</span>
+          <span class="indicator">3</span>
         </button>
 
-        <div class="search-contenedor">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="search-contenedor"><p>Guerre@ ya se encuentran disponibles tus puntos de junio en tu estado de cuenta</p><p>¡Tienes hasta el próximo 15 de julio para realizar tus canjes de este periodo!</p><p>Del 20 al 25 de julio, ¡tus puntos valen el doble!</p><p>Sube una foto de tu teatralización con la prioridad 1 del periodo antes del 30 de julio y gana un ¡Kit Guerrrero!</p>
+
+
+
+
         </div>
 
       </nav>
@@ -170,7 +170,7 @@
     <div class="toast"> Tu producto fue agregado con éxito</div>
     <div class="toastg"> Tu producto fue agregado con éxito a tu lista</div>
     <div class="animacion-carga"><div><img src="./Images/logocarga.png"> <p>Cargando...</p></div></div>
-    <div class="contenedor">
+    <div class="contenedor clearfix">
       <div class="elemento">
         <div class="row">
           <div class="col-sm-12 cen clearfix">
@@ -191,157 +191,161 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner">
                     <div class="item active">
-                      <a href="retos.php"><img src="./Images/danone-promo.png"></a>
+                      <a href="retos.php"><img src="./Images/SIL1.png"></a>
+                    </div>
+                    <div class="item">
+                      <a href="retos.php"><img src="./Images/SILK2.png"></a>
                     </div>
 
                     <div class="item">
-                      <a href="retos.php"><img src="./Images/danone-promo.png"></a>
+                      <a href="retos.php"><img src="./Images/RETO.png"></a>
                     </div>
                   </div>
-
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#retos" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#retos" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
                 </div>
 
-
-
-
-
-
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 cen clearfix">
-            <p class="block-titulo">Reto</p>
-            <div class="block-cuerpo">
-
-              <div class="promos detalle">
-                <div class="promo reto1">
-                  <img class="img-reto" src="./Images/retodetalle.png" alt="reto activia">
-                </div>
-                <div class="promo reto2">
-                  <p class="detalle-promo">Reto Activia</p>
-                  <p class="descripcion-promo">
-                    Descripcion rapida del reto.
-                  </p>
-
-                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#retos" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#retos" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
 
 
 
-            </div>
 
+
+
+            </div>
           </div>
         </div>
+        <div class="col-sm-12 cen clearfix">
+          <p class="block-titulo">Reto</p>
+          <div class="block-cuerpo">
 
+            <div class="promos detalle">
+              <div class="promo reto1">
+                <img class="img-reto" src="./Images/retodetalle.png" alt="reto activia">
+              </div>
+              <div class="promo reto2">
+                <p class="detalle-promo">Reto Activia</p>
+                <p class="descripcion-promo">
+                  Descripcion rapida del reto.
+                </p>
 
-      </div>
-
-
-    </div>
-    <div class="footer">
-      <div class="f2">
-        <div class="contenido">
-          <div class="row clearfix">
-            <p>Todos los derechos reservados. Guerrerobook <span><a>Términos y Condiciones</a><span class="separador"></span><a>Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Modal subir foto-->
-    <div class="modal fade" id="foto" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal subir fotografía-->
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="clearfix">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="subir-foto">
-              <div>
-                <img src="./Images/svg/camera.svg">
-                <p>Subir Fotos</p>
               </div>
             </div>
-            <select class="subir-foto-select" name="text">
-              <option value="value1">Albúm 1</option> 
-              <option value="value2" selected>Albúm 2</option>
-              <option value="value3">Albúm 3</option>
-              <option value="value3">Albúm 4</option>
-            </select>
-            <button class="outline c">Publicar</button>
-          </div>
-        </div>
 
+
+
+          </div>
+
+        </div>
       </div>
+
+
     </div>
 
-    <!-- Modal creacion de grupo-->
-    <div class="modal fade" id="grupo" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body c-grupo">
-            <div class="clearfix">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+    </div>
+  <div class="footer">
+    <div class="f2">
+      <div class="contenido">
+        <div class="row clearfix">
+          <p>Todos los derechos reservados. Guerrerobook <span><a>Términos y Condiciones</a><span class="separador"></span><a href="./reglas.php">Reglas</a><span class="separador"></span><a href="./soporte.php">Contacto</a></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal subir foto-->
+  <div class="modal fade" id="foto" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal subir fotografía-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="clearfix">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="subir-foto">
+            <div>
+              <img src="./Images/svg/camera.svg">
+              <p>Subir Fotos</p>
             </div>
-            <p>Crear Grupo</p>
-            <label>Nombre de grupo</label>
-            <input type="text">
-            <label>Agregar integrantes</label>
-            <textarea></textarea>
-            <button class="outline c">Publicar</button>
           </div>
+          <select class="subir-foto-select" name="text">
+            <option value="value1">Albúm 1</option> 
+            <option value="value2" selected>Albúm 2</option>
+            <option value="value3">Albúm 3</option>
+            <option value="value3">Albúm 4</option>
+          </select>
+          <button class="outline c">Publicar</button>
         </div>
-
       </div>
+
     </div>
+  </div>
 
-    <script type="text/javascript">
-      h = $("div.vermass").width();
-      $("div.vermass").css("height", h );
+  <!-- Modal creacion de grupo-->
+  <div class="modal fade" id="grupo" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body c-grupo">
+          <div class="clearfix">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <p>Crear Grupo</p>
+          <label>Nombre de grupo</label>
+          <input type="text">
+          <label>Agregar integrantes</label>
+          <textarea></textarea>
+          <button class="outline c">Publicar</button>
+        </div>
+      </div>
 
-    </script>
-    <script src="js/index.js"></script>
-    <script src="js/detalle.js"></script>
-    <script src="js/toast.js"></script>
-    <script src="js/menu.js"></script>
-    <script type="text/javascript">
-      if($(window).width() > 768 ){
-        var hi = 0;
-        var h1 = $(".banner > div:nth-child(1)").height();
-        var h2 = $(".banner > div:nth-child(2)").height();
-        if( hi < h1 ){ hi = h1;}
-        if( hi < h2 ){ hi = h2;}
-        hi=hi+10;
-        hi= hi + "px";
-        $(".banner").css("height",hi);
-      }
-      $("p.r1").click(function(){
-        $("div.r1").toggle();
-        $("p.r1 > span").toggle();
+    </div>
+  </div>
 
-      });
-      $("p.r2").click(function(){
-        $("div.r2").toggle();
-        $("p.r2 > span").toggle();
-      });
-      $("p.r3").click(function(){
-        $("div.r3").toggle();
-        $("p.r3 > span").toggle();
-      });
+  <script type="text/javascript">
+    h = $("div.vermass").width();
+    $("div.vermass").css("height", h );
 
-    </script>
+  </script>
+  <script src="js/index.js"></script>
+  <script src="js/detalle.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/menu.js"></script>
+  <script type="text/javascript">
+    if($(window).width() > 768 ){
+      var hi = 0;
+      var h1 = $(".banner > div:nth-child(1)").height();
+      var h2 = $(".banner > div:nth-child(2)").height();
+      if( hi < h1 ){ hi = h1;}
+      if( hi < h2 ){ hi = h2;}
+      hi=hi+10;
+      hi= hi + "px";
+      $(".banner").css("height",hi);
+    }
+    $("p.r1").click(function(){
+      $("div.r1").toggle();
+      $("p.r1 > span").toggle();
+
+    });
+    $("p.r2").click(function(){
+      $("div.r2").toggle();
+      $("p.r2 > span").toggle();
+    });
+    $("p.r3").click(function(){
+      $("div.r3").toggle();
+      $("p.r3 > span").toggle();
+    });
+
+  </script>
 
   </body>
 </html>
