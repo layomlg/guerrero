@@ -181,10 +181,10 @@
             <p class="block-titulo">Estado de cuenta</p>
             <div class="block-cuerpo">
               <p class="tit1">Puntos Disponibles</p>
-              <p class="pts disp"><span>1050</span> pts.</p>
+              <p class="pts disp"><span>4,500</span> pts.</p>
               <hr class="block-separador cje">
               <p class="tit1 cje">Puntos por canjear en Mi Carrito</p>
-              <p class="pts cje"><span>1050</span> pts.</p>
+              <p class="pts cje"><span>4,500</span> pts.</p>
               <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
             <p class="block-titulo">Premiaciones</p>
@@ -333,8 +333,6 @@
                   <div class="subcat">
                     <ul>
                       <li><a href=""><p>Cuidado del Bebé</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
                     </ul>
                   </div>
                 </div>
@@ -406,8 +404,8 @@
                   <div class="subcat">
                     <ul>
                       <li><a href=""><p>sub 1</p></a></li>
-                      <li><a href=""><p>sub 2</p></a></li>
-                      <li><a href=""><p>sub 3</p></a></li>
+                      
+                      
                     </ul>
                   </div>
                 </div>-->
