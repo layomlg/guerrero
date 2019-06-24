@@ -6891,3 +6891,16 @@ div.login-lnv p > a {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
+.promos .block-titulo {
+  margin-bottom: 0px;
+}
+.promos > .promo {background:transparent;
+}
+.item .art button.outline.canje {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

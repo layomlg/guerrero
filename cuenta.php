@@ -190,195 +190,233 @@
               <p class="pts cje"><span>4,500</span> pts.</p>
               <button class="outline c cje" onclick="location.href='carrito.php?idUsuario=<?php echo $idUsuario; ?>';">Canjear</button>
             </div>
-            <p class="block-titulo">Categorías</p>
-            <div class="block-cuerpo">
-              <!--<form>
-<div class="radio">
-<label><input type="radio" name="cat">Temporalidad</label>
-</div>
-<div class="radio">
-<label><input type="radio" name="cat">Tendencias</label>
-</div>
-<div class="radio">
-<label><input type="radio" name="cat">Personal</label>
-</div>
-</form>-->
-
-              <div class="block-categorias">
-                <div class="categoria art">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/art-personales.svg">
-                    <p class="tit-cat">Artículos Personales</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Accesorios Personales</p></a></li>
-                      <li><a href=""><p>Arreglo Personal</p></a></li>
-                      <li><a href=""><p>Cuidado Personal</p></a></li>
-                      <li><a href=""><p>Joyería</p></a></li>
-                      <li><a href=""><p>Relojes</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria aut">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/autos.svg">
-                    <p class="tit-cat">Autos</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Accesorios para auto</p></a></li>
-                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
-                      <li><a href=""><p>Herramientas</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria cer">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/certificados.svg">
-                    <p class="tit-cat">Certificados</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Cafés y Bebidas</p></a></li>
-                      <li><a href=""><p>Cine</p></a></li>
-                      <li><a href=""><p>Experiencia</p></a></li>
-                      <li><a href=""><p>iTunes</p></a></li>
-                      <li><a href=""><p>Tiendas Departamentales</p></a></li>
-                      <li><a href=""><p>Tiendas Diversas</p></a></li>                      
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria dep">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/deportes.svg">
-                    <p class="tit-cat">Deportes</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Aparatos y Artículos de Gimnasio</p></a></li>
-                      <li><a href=""><p>Campismo</p></a></li>
-                      <li><a href=""><p>Ciclismo</p></a></li>
-                      <li><a href=""><p>Futbol</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria hog">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/hogar.svg">
-                    <p class="tit-cat">Hogar</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Artículos Personales</p></a></li>
-                      <li><a href=""><p>Asadores</p></a></li>
-                      <li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
-                      <li><a href=""><p>Baterías, Ollas y Sartenes</p></a></li>
-                      <li><a href=""><p>Blancos</p></a></li>
-                      <li><a href=""><p>Cocina</p></a></li>
-                      <li><a href=""><p>Electrodomésticos</p></a></li>
-                      <li><a href=""><p>Herramientas</p></a></li>
-                      <li><a href=""><p>Herramientas y Jardín</p></a></li>
-                      <li><a href=""><p>Hogar</p></a></li>
-                      <li><a href=""><p>Muebles</p></a></li>
-                      <li><a href=""><p>Ventiladores y Calefactores</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria beb">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/bebes.svg">
-                    <p class="tit-cat">Niños y Bebés</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Cuidado del Bebé</p></a></li>
-                      
-                      
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria rec">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/certificados.svg">
-                    <p class="tit-cat">Recargas</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Cine</p></a></li>
-                      <li><a href=""><p>Recarga Celular</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria syb">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/salud.svg">
-                    <p class="tit-cat">Salud y Belleza</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Arreglo Personal</p></a></li>
-                      <li><a href=""><p>Cuidado Personal</p></a></li>
-                      <li><a href=""><p>Lociones</p></a></li>
-                      <li><a href=""><p>Perfumes</p></a></li>
-                      <li><a href=""><p>Salud</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria tec">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/tecnologia.svg">
-                    <p class="tit-cat">Tecnología</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Accesorios para tecnología</p></a></li>
-                      <li><a href=""><p>Artículos Personales</p></a></li>
-                      <li><a href=""><p>Audio / Video</p></a></li>
-                      <li><a href=""><p>Car Audio</p></a></li>
-                      <li><a href=""><p>Cómputo</p></a></li>
-                      <li><a href=""><p>Fotografía</p></a></li>
-                      <li><a href=""><p>Relojes</p></a></li>
-                      <li><a href=""><p>Telefonía</p></a></li>
-                      <li><a href=""><p>Videojuegos</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="categoria via">
-                  <div class="cat-cont">
-                    <img src="./Images/nuevas/viaje.svg">
-                    <p class="tit-cat">Viaje</p>
-                  </div>
-                  <div class="subcat">
-                    <ul>
-                      <li><a href=""><p>Equipaje</p></a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <!--
-<div class="categoria cav">
+            <!--
+<p class="block-titulo">Categorías</p>
+<div class="block-cuerpo">
+<div class="block-categorias">
+<div class="categoria art">
 <div class="cat-cont">
-<img src="./Images/nuevas/Cava.svg">
-<p class="tit-cat">Cava</p>
+<img src="./Images/nuevas/art-personales.svg">
+<p class="tit-cat">Artículos Personales</p>
 </div>
 <div class="subcat">
 <ul>
-<li><a href=""><p>sub 1</p></a></li>
+<li><a href=""><p>Accesorios Personales</p></a></li>
+<li><a href=""><p>Arreglo Personal</p></a></li>
+<li><a href=""><p>Cuidado Personal</p></a></li>
+<li><a href=""><p>Joyería</p></a></li>
+<li><a href=""><p>Relojes</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria aut">
+<div class="cat-cont">
+<img src="./Images/nuevas/autos.svg">
+<p class="tit-cat">Autos</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Accesorios para auto</p></a></li>
+<li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+<li><a href=""><p>Herramientas</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria cer">
+<div class="cat-cont">
+<img src="./Images/nuevas/certificados.svg">
+<p class="tit-cat">Certificados</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Cafés y Bebidas</p></a></li>
+<li><a href=""><p>Cine</p></a></li>
+<li><a href=""><p>Experiencia</p></a></li>
+<li><a href=""><p>iTunes</p></a></li>
+<li><a href=""><p>Tiendas Departamentales</p></a></li>
+<li><a href=""><p>Tiendas Diversas</p></a></li>                      
+</ul>
+</div>
+</div>
+<div class="categoria dep">
+<div class="cat-cont">
+<img src="./Images/nuevas/deportes.svg">
+<p class="tit-cat">Deportes</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Aparatos y Artículos de Gimnasio</p></a></li>
+<li><a href=""><p>Campismo</p></a></li>
+<li><a href=""><p>Ciclismo</p></a></li>
+<li><a href=""><p>Futbol</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria hog">
+<div class="cat-cont">
+<img src="./Images/nuevas/hogar.svg">
+<p class="tit-cat">Hogar</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Artículos Personales</p></a></li>
+<li><a href=""><p>Asadores</p></a></li>
+<li><a href=""><p>Aspiradoras y Lava Alfombra</p></a></li>
+<li><a href=""><p>Baterías, Ollas y Sartenes</p></a></li>
+<li><a href=""><p>Blancos</p></a></li>
+<li><a href=""><p>Cocina</p></a></li>
+<li><a href=""><p>Electrodomésticos</p></a></li>
+<li><a href=""><p>Herramientas</p></a></li>
+<li><a href=""><p>Herramientas y Jardín</p></a></li>
+<li><a href=""><p>Hogar</p></a></li>
+<li><a href=""><p>Muebles</p></a></li>
+<li><a href=""><p>Ventiladores y Calefactores</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria beb">
+<div class="cat-cont">
+<img src="./Images/nuevas/bebes.svg">
+<p class="tit-cat">Niños y Bebés</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Cuidado del Bebé</p></a></li>
 
 
 </ul>
 </div>
-</div>-->
+</div>
+<div class="categoria rec">
+<div class="cat-cont">
+<img src="./Images/nuevas/certificados.svg">
+<p class="tit-cat">Recargas</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Cine</p></a></li>
+<li><a href=""><p>Recarga Celular</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria syb">
+<div class="cat-cont">
+<img src="./Images/nuevas/salud.svg">
+<p class="tit-cat">Salud y Belleza</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Arreglo Personal</p></a></li>
+<li><a href=""><p>Cuidado Personal</p></a></li>
+<li><a href=""><p>Lociones</p></a></li>
+<li><a href=""><p>Perfumes</p></a></li>
+<li><a href=""><p>Salud</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria tec">
+<div class="cat-cont">
+<img src="./Images/nuevas/tecnologia.svg">
+<p class="tit-cat">Tecnología</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Accesorios para tecnología</p></a></li>
+<li><a href=""><p>Artículos Personales</p></a></li>
+<li><a href=""><p>Audio / Video</p></a></li>
+<li><a href=""><p>Car Audio</p></a></li>
+<li><a href=""><p>Cómputo</p></a></li>
+<li><a href=""><p>Fotografía</p></a></li>
+<li><a href=""><p>Relojes</p></a></li>
+<li><a href=""><p>Telefonía</p></a></li>
+<li><a href=""><p>Videojuegos</p></a></li>
+</ul>
+</div>
+</div>
+<div class="categoria via">
+<div class="cat-cont">
+<img src="./Images/nuevas/viaje.svg">
+<p class="tit-cat">Viaje</p>
+</div>
+<div class="subcat">
+<ul>
+<li><a href=""><p>Equipaje</p></a></li>
+</ul>
+</div>
+</div>
+</div>
 
 
 
+
+</div>
+<ul class="listaguion grupos">
+<li><a data-toggle="modal" data-target="#grupo" ><img src="./Images/nuevas/grupos.svg" alt="crear grupos">Crear Grupo</a></li>
+<li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>              
+</ul>-->
+            <p class="block-titulo der r1">Top 5 Regional<span>+</span><span>-</span></p>
+            <div class="block-cuerpo top r1">
+              <div>
+                <span class="rank">1</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
               </div>
+              <div>
+                <span class="rank">2</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div class="active">
+                <span class="rank">3</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div class="">
+                <span class="rank">4</span>
+                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
+                <p class="info"><span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">5</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+
             </div>
-            <ul class="listaguion grupos">
-              <li><a data-toggle="modal" data-target="#grupo" ><img src="./Images/nuevas/grupos.svg" alt="crear grupos">Crear Grupo</a></li>
-              <li><a href="grupo.php?idUsuario=<?php echo $idUsuario; ?>">Grupo 1</a></li>              
-            </ul>
+            <p class="block-titulo der r2">Top 5 Por Sector<span>+</span><span>-</span></p>
+            <div class="block-cuerpo top r2">
+              <div>
+                <span class="rank">1</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">2</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">3</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">4</span>
+                <p class="nombre">Juan Pérez <span class="datos">800 pts</span></p>
+                <p class="info"><span class="datos">Region 5</span></p>
+              </div>
+              <div>
+                <span class="rank">5</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+              <div class="active">
+                <span class="rank">9</span>
+                <p>Juan Pérez <span class="datos">800 pts</span></p>
+                <p> <span class="datos">Region 5</span></p>
+              </div>
+
+            </div>
           </div>
 
           <div class="col-sm-9 der clearfix">
@@ -422,7 +460,7 @@
                         <td class="can-orden"> 0</td>
                         <td class="can-orden"> 0</td>
                       </tr>
-                     
+
                     </tbody>
                   </table>
                 </div>
@@ -525,7 +563,15 @@
         hi= hi + "px";
         $(".banner").css("height",hi);
       }
+      $("p.r1").click(function(){
+        $("div.r1").toggle();
+        $("p.r1 > span").toggle();
 
+      });
+      $("p.r2").click(function(){
+        $("div.r2").toggle();
+        $("p.r2 > span").toggle();
+      });
       /*
       $("table.resume-orden > tbody > tr > td:not('td:first-child')").each(function(){
         x = Math.trunc(Math.random() * 100);

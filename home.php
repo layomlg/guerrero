@@ -1089,8 +1089,15 @@
           }
         });
       });
-/*      $(document).ready(function(){
+      /*      $(document).ready(function(){
         $('#onboarding video').trigger('play');
+      });*/
+
+
+/*      $(document).ready(function(){
+        $("#onboarding video").on('ended', function(){
+          alert('El video ha finalizado!!!');
+        });
       });*/
 
     </script>
