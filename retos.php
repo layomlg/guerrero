@@ -176,9 +176,9 @@
           <div class="col-sm-12 cen clearfix">
             <div class="promos">
               <div class="promo reto">
-                <p class="block-titulo">Retos-Noticias</p>
+                <p class="block-titulo">Retos</p>
                 <img class="img-reto" src="./Images/reto1.png" alt="reto activia">
-                <p class="block-titulo">Retos-Noticias</p>
+                <p class="block-titulo">Noticias</p>
                 <img class="img-reto" src="./Images/reto2.png" alt="reto danonino">
               </div>
               <div class="promo">
@@ -226,8 +226,7 @@
           </div>
         </div>
         <div class="col-sm-12 cen clearfix">
-          <p class="block-titulo">Reto</p>
-          <p class="block-titulo">Retos-Noticias</p>
+          <p class="block-titulo">Descripción</p>
           <div class="block-cuerpo">
 
             <div class="promos detalle">
